@@ -351,11 +351,14 @@ Footer CSS
 .rightSide h1{
   font-size: 27px;
   color: #fcf113;
+  margin-bottom: 10px;
 }
 
 .rightSide p{
   font-size: 25px;
   color: #fff;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .footerForm input{
@@ -367,18 +370,18 @@ Footer CSS
 }
 ::placeholder {
   font-size: 21px;
-  color: #ccc;
+  color: #fff;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
   font-size: 21px;
-  color: #ccc;
+  color: #fff;
 }
 
 ::-ms-input-placeholder {
   font-size: 21px;
-  color: #ccc;
+  color: #fff;
 }
 .footerForm input:focus{
   outline: none;
