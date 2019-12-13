@@ -65,7 +65,6 @@ section {
 .sectionAccess h1{
   font-size: 47px;
   color: #000;
-
 }
 .sectionAccess p{
   font-size: 21px;
@@ -73,7 +72,12 @@ section {
 }
 
 
-
+@media (max-width: 480px) {
+  .sectionAccess h1{
+    font-size: 27px;
+    color: #000;
+  }
+}
 
 
 /*=====================
@@ -345,6 +349,13 @@ section video {
   text-align: center;
   color: #fff;
 }
+
+@media (max-width: 480px) {
+  .headerContent h1{
+    font-size: 37px;
+  }
+}
+
 .headerButton.full{
   width: 100%;
 }
