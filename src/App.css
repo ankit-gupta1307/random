@@ -74,6 +74,19 @@ section {
   height: auto!important;
   padding: 60px;
 }
+
+@media (max-width: 991px) {
+  .sectionLast{
+    height: auto!important;
+    padding: 0px;
+  }
+  .sectionLast h1 {
+    font-size: 27px;
+  }
+  .sectionLast p {
+    font-size: 17px!important;
+  }
+} 
 .sectionLast p{
   font-size: 21px;
 }
