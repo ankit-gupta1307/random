@@ -11,7 +11,9 @@ export default  class Section1About extends React.Component {
     return (
       <section className="sectionAbout1 white bg">
       	<Grid>
+              <div className="overlay"></div>
       		<Row>
+
       			<Col lg={12}>
       				<Image src={pic} responsive/>
       			</Col>
