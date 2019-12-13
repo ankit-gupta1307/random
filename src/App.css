@@ -125,18 +125,37 @@ About Page Section CSS
   padding-bottom: 40px;
   text-align: center;
 }
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+  .sectionAbout1{
+    padding-top: 100px;
+  }
+  .overlay::after{
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
   .overlay::after{
     content: ' ';
     background: #000;
     left: 30%;
-    right: 90px;
+    right: 0;
     top: 0;
-    height: 50%;
+    height: 30%;
     position: absolute;
   }
 }
 
+@media (min-width: 991px) {
+ .overlay::after{
+   content: ' ';
+   background: #000;
+   left: 30%;
+   right: 90px;
+   top: 0;
+   height: 30%;
+   position: absolute;
+ } 
+}
 
 .sectionAbout1 h1{
   font-size: 42px;
@@ -151,6 +170,16 @@ About Page Section CSS
   margin-bottom: 30px;
 }
 
+@media (max-width: 480px) {
+  .sectionAbout1 h1{
+    font-size: 37px;
+    margin-top: 30px;
+
+  }
+  .sectionAbout1 p{
+    font-size: 17px;
+  }
+}
 .sectionAbout2{
   display: flex;
   justify-content: center;
@@ -195,7 +224,13 @@ About Page Section CSS
   display: block;
   width: 70%;
 }
-
+ 
+@media (max-width: 767px) {
+  .sectionAbout3 img{
+    margin: 30px auto 30px auto;
+    width: 100%;
+  }
+}
 
 
 .sectionAbout4{
@@ -462,6 +497,18 @@ CSS Header
   font-size: 20px;
   color: #fff;
 }
+@media (max-width: 761px) {
+  .customHeader.navbar-default .navbar-nav>li>a{
+    text-align: center;
+  }
+  .loginBtn{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .navbar-brand > img {
+      width: 50%;
+  }
+}
 .customHeader.navbar-default .navbar-nav>li.loginBtn a{
   border: 4px solid rgb(252,241,19);
   border-radius: 5px;
@@ -470,7 +517,9 @@ CSS Header
   border: 4px solid rgb(252,241,19);
 }
 
-
+.navbar-collapse.collapse.in{
+  background:rgba(0,0,0,.7);
+}
 
 @media (min-width: 768px){
   .customHeader.navbar-default .navbar-nav.navbar-right {
@@ -483,7 +532,6 @@ CSS Header
       padding-left: 30px;
       padding-right: 30px;
   }
-  
 }
 
 
