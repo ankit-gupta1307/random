@@ -9,6 +9,11 @@ import Section6Home from './section6/';
 import PageHeader from '../common/header/';
 
 
+import Section1About from '../aboutpage/section1/';
+import Section2About from '../aboutpage/section2/';
+import Section5About from '../aboutpage/section5/';
+
+
 
 
 export default class HomePageContainer extends Component {
@@ -22,6 +27,11 @@ export default class HomePageContainer extends Component {
 		      <Section3Home/>
 		      <Section4Home/>
 		      <Section5Home/>
+
+		      <Section1About/>
+		      <Section2About/>
+		      <Section5About/>
+
 		      <Section6Home/>
 			</React.Fragment>
 		)

@@ -75,6 +75,91 @@ section {
 
 
 
+
+/*=====================
+About Section 6
+=======================*/
+
+.sectionAbout1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.sectionAbout1 h1{
+  font-size: 42px;
+  color: #000;
+  margin-top: 100px;
+  margin-bottom: 40px;
+
+}
+.sectionAbout1 p{
+  font-size: 21px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.sectionAbout2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionAbout2.bg{
+  background: url("images/bgAboutGirl.jpg") no-repeat;
+  background-size: cover;
+}
+.sectionAbout2 h1{
+  font-size: 47px;
+  color: #000;
+
+}
+.sectionAbout2 p{
+  font-size: 21px;
+  color: #000;
+}
+
+
+.sectionAbout5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionAbout5.bg{
+  background: url("images/bgAboutBoy.jpg") no-repeat;
+  background-size: cover;
+}
+.sectionAbout5 h1{
+  font-size: 47px;
+  color: #000;
+
+}
+.sectionAbout5 p{
+  font-size: 21px;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*===================
 Footer CSS
 ================*/
