@@ -8,32 +8,48 @@ html, body {
     padding: 0px;
 }
 section {
-    position: relative;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-  }
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
 .sky {
-    height: 100vh;
-    background: rgb(109, 133, 167);
+  background: rgb(109, 133, 167);
 }
 .green {
-    height: 100vh;
-    background: #fff;
+  background: #fff;
 }
 .gray {
     height: 100vh;
     background: rgb(232, 232, 232);
 }
 .white {
-    height: 100vh;
     background: #fff;
 }
 .black {
-    height: 100vh;
     background: #000;
 }
+
+@media(min-width : 761px) {
+  .sky {
+      height: 100vh;
+  }
+  .green {
+      height: 100vh;
+  }
+  .gray {
+      height: 100vh;
+  }
+  .white {
+      height: 100vh;
+  }
+  .black {
+      height: 100vh;
+  }
+}
+
+
 .textWhite{
   color: #fff!important;
 }
@@ -45,7 +61,15 @@ section {
   justify-content: center;
   align-items: center;
 }
-
+@media (max-width: 480px) {
+  .section1Home{
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .textSizeSmall{
+    font-size: 25px!important;
+  }
+}
 .sectionLast{
   height: auto!important;
   padding: 60px;
@@ -73,9 +97,17 @@ section {
 
 
 @media (max-width: 480px) {
+  .sectionAccess{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
   .sectionAccess h1{
     font-size: 27px;
-    color: #000;
+    text-align: center;
+  }
+  .sectionAccess p{
+    font-size: 17px;
+    text-align: center;
   }
 }
 
@@ -197,6 +229,12 @@ About Page Section CSS
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 480px) {
+  .sectionAbout5{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 .sectionAbout5.bg{
   background: url("images/bgAboutBoy.jpg") no-repeat;
@@ -361,6 +399,12 @@ section video {
 }
 .headerButton.inline-block{
   width: auto;
+}
+@media (max-width: 480px) {
+  .headerButton.inline-block{
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 .headerButton{
   font-size: 20px;
