@@ -11,7 +11,7 @@ export default  class Section2About extends React.Component {
       <section className="sectionAbout2 white bg">
       	<Grid>
       		<Row>
-      		  <Col lg={5} lgOffset={0}>
+      		  <Col lg={12} md={12} sm={12} xs={12}>
       		    {/*<h1 className="textWhite textSizeSmall">Let's create a zero carbon world together</h1>*/}
       		  </Col>
       		</Row>

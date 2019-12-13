@@ -17,28 +17,28 @@ export default  class Section3About extends React.Component {
       <section className="sectionAbout3 sky">
       	<Grid>
       		<Row>
-      			<Col lg={7} lgOffset={3}>
+      			<Col lg={7} md={7} sm={8} xs={12} lgOffset={3} lgOffset={3} smOffset={2} >
       		    <h1>HST is backed by some of the most influential thinkers in the world.</h1>
               <p>We are bringing clean energy to the world together.</p>
       			</Col>
       		  
-      		  <Col lg={4}>
+      		  <Col lg={4} md={4} sm={4} xs={6}>
       		  	<Image src={partner01} />
       		  </Col>
-            <Col lg={4}>
+            <Col lg={4} md={4} sm={4} xs={6}>
               <Image src={partner02} />
             </Col>
-            <Col lg={4}>
+            <Col lg={4} md={4} sm={4} xs={6}>
               <Image src={partner03} />
             </Col>
 
-            <Col lg={4}>
+            <Col lg={4} md={4} sm={4} xs={6}>
               <Image src={partner04} />
             </Col>
-            <Col lg={4}>
+            <Col lg={4} md={4} sm={4} xs={6}>
               <Image src={partner05} />
             </Col>
-            <Col lg={4}>
+            <Col lg={4} md={4} sm={4} xs={6}>
               <Image src={partner06} />
             </Col>
       		</Row>
