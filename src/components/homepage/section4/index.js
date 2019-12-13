@@ -18,7 +18,7 @@ export default  class Section4Home extends React.Component {
       		    <Button className="headerButton textBlack inline-block">Green The Grid</Button>
       		  </Col>
       		  <Col lg={5} md={6} sm={6} xs={12} lgOffset={1}>
-              <img src={logo} className="App-logo" alt="logo" responsive/>
+              <Image src={logo} className="App-logo" alt="logo" responsive/>
       		  </Col>
       		</Row>
       	</Grid>
