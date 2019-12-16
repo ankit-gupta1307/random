@@ -21,6 +21,14 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.customContainer{
+  width: 100%!important;
+  overflow:hidden;
 }
 .sky {
   background: rgb(109, 133, 167);
@@ -69,10 +77,13 @@ section {
   justify-content: center;
   align-items: center;
 }
+.section1Home{
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
 @media (max-width: 480px) {
   .section1Home{
-    padding-top: 100px;
-    padding-bottom: 40px;
+    overflow:hidden; 
   }
   .textSizeSmall{
     font-size: 25px!important;
@@ -103,10 +114,29 @@ section {
   justify-content: center;
   align-items: center;
 }
-.sectionAccess.bg{
-  background: url("images/bgBoy.jpg") no-repeat;
-  background-size: cover;
+
+@media(min-width: 481px) {
+  .sectionAccess.bg{
+    background: url("images/bgBoy.jpg") no-repeat;
+    background-size: cover;
+    min-height: 300px;
+  }
 }
+
+@media(max-width: 480px) {
+  .sectionAccess.bg{
+    background: #fff;
+    background-size: cover;
+    min-height: 300px;
+  }
+  .boyBgMobile{
+    background: url("images/bgBoy.jpg") no-repeat;
+    background-size: cover;
+    min-height: 300px;
+  }
+}
+
+
 .sectionAccess h1{
   font-size: 47px;
   color: #000;
@@ -129,6 +159,8 @@ section {
   .sectionAccess p{
     font-size: 17px;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
 
@@ -209,6 +241,7 @@ About Page Section CSS
 .sectionAbout2.bg{
   background: url("images/bgAboutGirl.jpg") no-repeat;
   background-size: cover;
+  min-height: 300px;
 }
 .sectionAbout2 h1{
   font-size: 47px;
@@ -587,8 +620,22 @@ CSS Header
 }
 
 
+@media (min-width: 481px) {
+  .destopVersion{
+    display: block;
+  }
+  .mobileVersion{
+    display: none;
+  }
+}
 
-
-
+@media (max-width: 480px) {
+  .destopVersion{
+    display: none;
+  }
+  .mobileVersion{
+    display: block;
+  }
+}
 
 
