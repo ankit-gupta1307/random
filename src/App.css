@@ -9,12 +9,18 @@ Home Page Structure
   format('opentype'); 
 }
 
-html, body {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'FuturaPTLight', 'Roboto', sans-serif;
+* {
+  font-family: 'FuturaPTLight', 'Roboto', sans-serif;
 }
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+
 section {
   position: relative;
   background-position: top center;
