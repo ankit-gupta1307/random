@@ -8,7 +8,7 @@ export default  class Section1Home extends React.Component {
 	}
 	render() {
     return (
-      <Grid>
+      <Grid className="customContainer">
         <Row>
           <Col lg={12}>
             <section className="sectionAlign section1Home green">
@@ -20,10 +20,10 @@ export default  class Section1Home extends React.Component {
                 <Col lg={6} lgOffset={3}>
                   <h1>You are the future of clean energy.</h1>
                 </Col>
-                <Col lg={3} lgOffset={3}>
+                <Col lg={3} md={6} sm={6} xs={12} lgOffset={3}>
                   <Button className="headerButton textYellow full">Buy Clean Energy</Button>
                 </Col>
-                <Col lg={3}>
+                <Col lg={3} md={6} sm={6} xs={12}>
                   <Button className="headerButton textYellow full">Develop Clean Energy</Button>
                 </Col>
               </Row>

@@ -13,6 +13,14 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.customContainer{
+  width: 100%!important;
+  overflow:hidden;
 }
 .sky {
   background: rgb(109, 133, 167);
@@ -61,10 +69,13 @@ section {
   justify-content: center;
   align-items: center;
 }
+.section1Home{
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
 @media (max-width: 480px) {
   .section1Home{
-    padding-top: 100px;
-    padding-bottom: 40px;
+    overflow:hidden; 
   }
   .textSizeSmall{
     font-size: 25px!important;
@@ -201,6 +212,7 @@ About Page Section CSS
 .sectionAbout2.bg{
   background: url("images/bgAboutGirl.jpg") no-repeat;
   background-size: cover;
+  min-height: 300px;
 }
 .sectionAbout2 h1{
   font-size: 47px;
