@@ -14,7 +14,7 @@ export default  class Section6Home extends React.Component {
         {/*<PageFooter />*/}
         <Grid>
           <Row>
-            <Col lg={6} className="leftSide">
+            <Col lg={6} md={6} sm={6} xs={12} className="leftSide">
               <ul>
                 <li>
                   <a href="#"><Image src="https://d3n32ilufxuvd1.cloudfront.net/5d7ae84c6d212c0a00da6054/1538099/upload-4e3ce914-13a1-4baa-9d7a-cc323162095f.png" /></a>
@@ -27,14 +27,14 @@ export default  class Section6Home extends React.Component {
               <p>Follow</p>
               <p>Copyright © 2020 HST Inc. All rights reserved.</p>
             </Col>
-            <Col lg={6} className="rightSide">
+            <Col lg={6} md={6} sm={6} xs={12} className="rightSide">
               <h1>Join our Newsletter</h1>
               <p>Let's keep in touch and green the grid together!</p>
               <Row className="footerForm">
-                <Col lg={6}>
+                <Col lg={6} md={6} sm={6} xs={12}>
                   <input type="text" placeholder="Enter Email Address.." />
                 </Col>
-                <Col lg={6}>
+                <Col lg={6} md={6} sm={6} xs={12}>
                   <Button>Submit</Button>
                 </Col>
               </Row>
