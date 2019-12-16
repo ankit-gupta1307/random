@@ -106,10 +106,29 @@ section {
   justify-content: center;
   align-items: center;
 }
-.sectionAccess.bg{
-  background: url("images/bgBoy.jpg") no-repeat;
-  background-size: cover;
+
+@media(min-width: 481px) {
+  .sectionAccess.bg{
+    background: url("images/bgBoy.jpg") no-repeat;
+    background-size: cover;
+    min-height: 300px;
+  }
 }
+
+@media(max-width: 480px) {
+  .sectionAccess.bg{
+    background: #fff;
+    background-size: cover;
+    min-height: 300px;
+  }
+  .boyBgMobile{
+    background: url("images/bgBoy.jpg") no-repeat;
+    background-size: cover;
+    min-height: 300px;
+  }
+}
+
+
 .sectionAccess h1{
   font-size: 47px;
   color: #000;
@@ -132,6 +151,8 @@ section {
   .sectionAccess p{
     font-size: 17px;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
 
@@ -591,8 +612,22 @@ CSS Header
 }
 
 
+@media (min-width: 481px) {
+  .destopVersion{
+    display: block;
+  }
+  .mobileVersion{
+    display: none;
+  }
+}
 
-
-
+@media (max-width: 480px) {
+  .destopVersion{
+    display: none;
+  }
+  .mobileVersion{
+    display: block;
+  }
+}
 
 
