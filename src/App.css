@@ -35,6 +35,8 @@ section {
 .customContainer{
   width: 100%!important;
   overflow:hidden;
+  padding-left: 0;
+  padding-right: 0;
 }
 .sky {
   background: rgb(109, 133, 167);
@@ -429,17 +431,17 @@ Footer CSS
 
 @media(max-width: 500px) {
   .leftSide p{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: lighter;
   }
   .leftSide p:first-child{
     margin-top: 30px;
   }
   .rightSide p{
-    font-size: 17px;
+    font-size: 21px;
   }
   .rightSide h1{
-    font-size: 17px;
+    font-size: 21px;
   }
 }
 .footerForm input{
