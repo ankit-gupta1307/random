@@ -9,7 +9,7 @@ export default  class Section4Home extends React.Component {
 	}
 	render() {
     return (
-      <section className="sectionAccess white">
+      <section className="sectionAccess white secionFour">
       	<Grid>
       		<Row>
       		  <Col lg={6} md={6} sm={6} xs={12}>
