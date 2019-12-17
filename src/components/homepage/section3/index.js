@@ -8,7 +8,7 @@ export default  class Section3Home extends React.Component {
 	}
 	render() {
     return (
-      <section className="sectionAccess white bg">
+      <section className="sectionAccess white bg plrnone">
       	<Grid>
       		<Row className="destopVersion">
       		  <Col lg={5} md={5} sm={5} xs={12} lgOffset={7} mdOffset={7} smOffset={7}>

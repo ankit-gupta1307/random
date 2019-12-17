@@ -1,7 +1,7 @@
 /*@import 'base/normalize';*/
 /*@import 'mixin';
 @import 'variable';*/
-* {
+/** {
   margin: 0 auto;
   padding: 0;
   font-family: 'Roboto', sans-serif;
@@ -58,4 +58,4 @@ html {
   body {
     overflow: scroll;
   }
-}
+}*/
