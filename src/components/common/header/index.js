@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Nav, Navbar, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
-
+import { Grid, Row, Col, Nav, Navbar, NavItem, MenuItem, NavDropdown, Image } from 'react-bootstrap';
+import pic from '../../../images/white-logo.png';
 
 export default  class PageHeader extends React.Component {
 	constructor(props) {
@@ -13,7 +13,7 @@ export default  class PageHeader extends React.Component {
       	<Navbar collapseOnSelect className="customHeader">
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="homepage"><img src="https://content.readymag.com/5d7ae84c6d212c0a00da6054/1664457/upload-77e8678c-c7e2-4c3a-aef1-c273b65f370a.png" /></a>
+              <a href="homepage"><Image src={pic} /></a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>

@@ -563,9 +563,10 @@ section video {
     font-size: 37px;
   }
 }
-
-.headerButton.full{
-  width: 100%;
+@media (max-width: 500px) {
+  .headerButton.full{
+    width: 100%;
+  }
 }
 .headerButton.inline-block{
   width: auto;
