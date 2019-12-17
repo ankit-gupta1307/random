@@ -18,7 +18,7 @@ export default  class Section1Home extends React.Component {
               </video>
 
               <Row className="headerContent">
-                <Col lg={6} lgOffset={3}>
+                <Col lg={12} lgOffset={0}>
                   <h1>You are the future <span> of clean energy.</span></h1>
                 </Col>
                 <Col lg={3} md={6} sm={6} xs={12} lgOffset={3}>
