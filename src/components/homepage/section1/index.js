@@ -19,7 +19,7 @@ export default  class Section1Home extends React.Component {
 
               <Row className="headerContent">
                 <Col lg={6} lgOffset={3}>
-                  <h1>You are the future of clean energy.</h1>
+                  <h1>You are the future <span> of clean energy.</span></h1>
                 </Col>
                 <Col lg={3} md={6} sm={6} xs={12} lgOffset={3}>
                   <Button className="headerButton textYellow full">Buy Clean Energy</Button>

@@ -554,6 +554,10 @@ section video {
   color: #fff;
 }
 
+.headerContent h1>span{
+  display: block;
+}
+
 @media (max-width: 480px) {
   .headerContent h1{
     font-size: 37px;
