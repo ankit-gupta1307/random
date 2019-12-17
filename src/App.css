@@ -107,7 +107,7 @@ section {
   align-items: center;
 }
 
-@media(min-width: 481px) {
+@media(min-width: 501px) {
   .sectionAccess.bg{
     background: url("images/bgBoy.jpg") no-repeat;
     background-size: cover;
@@ -115,7 +115,7 @@ section {
   }
 }
 
-@media(max-width: 480px) {
+@media(max-width: 500px) {
   .sectionAccess.bg{
     background: #fff;
     background-size: cover;
@@ -366,8 +366,14 @@ Footer CSS
 }
 
 .leftSide ul {
-  margin: 0 0 80px 0;
+  margin: 0 0 15px 0;
   padding: 0;
+}
+@media (max-width: 500px) {
+  .leftSide ul {
+    margin: 0 0 15px 0;
+    text-align: center;
+  }
 }
 .leftSide ul li{
   display: inline-block;
@@ -407,27 +413,43 @@ Footer CSS
   margin-top: 20px;
 }
 
+@media(max-width: 500px) {
+  .leftSide p{
+    font-size: 12px;
+    font-weight: lighter;
+  }
+  .leftSide p:first-child{
+    margin-top: 30px;
+  }
+  .rightSide p{
+    font-size: 17px;
+  }
+  .rightSide h1{
+    font-size: 17px;
+  }
+}
 .footerForm input{
   width: 100%;
   background-color: transparent;
   border:1px solid transparent;
   height: 35px;
   padding: 5px 10px 5px 0;
+  color: #ddd;
 }
 ::placeholder {
   font-size: 21px;
-  color: #fff;
+  color: #605c5c;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
   font-size: 21px;
-  color: #fff;
+  color: #605c5c;
 }
 
 ::-ms-input-placeholder {
   font-size: 21px;
-  color: #fff;
+  color: #605c5c;
 }
 .footerForm input:focus{
   outline: none;
@@ -454,7 +476,29 @@ Footer CSS
   outline: none;
 }
 
+@media(max-width: 500px) {
+  .footerForm button,
+  .footerForm button:hover,
+  .footerForm button:focus,
+  .footerForm button:active:focus{
+    font-size: 17px;
+  }
+  ::placeholder {
+    font-size: 17px;
+    color: #605c5c;
+    opacity: 1;
+  }
 
+  :-ms-input-placeholder {
+    font-size: 17px;
+    color: #605c5c;
+  }
+
+  ::-ms-input-placeholder {
+    font-size: 17px;
+    color: #605c5c;
+  }
+}
 
 
 
@@ -612,7 +656,7 @@ CSS Header
 }
 
 
-@media (min-width: 481px) {
+@media (min-width: 501px) {
   .destopVersion{
     display: block;
   }
@@ -621,7 +665,7 @@ CSS Header
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .destopVersion{
     display: none;
   }
