@@ -393,10 +393,13 @@ Footer CSS
   margin: 0 0 15px 0;
   padding: 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   .leftSide ul {
     margin: 0 0 15px 0;
     text-align: center;
+  }
+  .headerButton.textYellow{
+    width: 100%;
   }
 }
 .leftSide ul li{
