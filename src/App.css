@@ -2,11 +2,25 @@
 /*=====================
 Home Page Structure
 ==================*/
-html, body {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+@font-face { 
+  font-family: FuturaPTLight; 
+  src: local('FuturaPTLight'), 
+  url(./fonts/FuturaPTLight.otf) 
+  format('opentype'); 
 }
+
+* {
+  font-family: 'FuturaPTLight', 'Roboto', sans-serif;
+}
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+
 section {
   position: relative;
   background-position: top center;
