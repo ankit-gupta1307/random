@@ -22,7 +22,7 @@ export default  class Section4Home extends React.Component {
               <Image src={pic} className="destopVersion" alt="logo" responsive/>
       		  </Col>
             <Col lg={12} md={12} sm={12} xs={12}>
-              <h2>Only you can scale clean energy. Are you ready?</h2>
+              <h2 className="text-center">Only you can scale clean energy. Are you ready?</h2>
             </Col>
       		</Row>
       	</Grid>

@@ -107,6 +107,15 @@ section {
   padding: 60px;
 }
 
+.sectionLast h1{
+  font-size: 47px;
+  font-weight: bold;
+}
+
+.secionFour img{
+  display: block;
+  margin:0 auto;
+}
 @media (max-width: 991px) {
   .sectionLast{
     height: auto!important;
@@ -119,6 +128,7 @@ section {
   }
   .sectionLast p {
     font-size: 17px!important;
+    font-weight: bold;
   }
   .secionFour{
     border-top: 10px solid rgb(0,0,0);
@@ -126,6 +136,7 @@ section {
 } 
 .sectionLast p{
   font-size: 21px;
+  font-weight: bold;
 }
 .sectionAccess{
   display: flex;
@@ -163,12 +174,17 @@ section {
   color: #000;
   font-weight: bold;
 }
-.sectionAccess p,
-.sectionAccess h2{
+.sectionAccess p {
   font-size: 21px;
+  font-weight: bold;
   color: #000;
 }
 
+.sectionAccess h2{
+  font-size: 37px;
+  font-weight: bold;
+  color: #000;
+}
 
 @media (max-width: 480px) {
   .sectionAccess{
@@ -732,4 +748,10 @@ CSS Header
   }
 }
 
-
+@media (min-width: 501px) and (max-width: 991px) {
+  .sectionAccess h1,
+  .sectionAccess h1,
+  .sectionAccess h1{
+    font-size: 37px!important;
+  }
+}
