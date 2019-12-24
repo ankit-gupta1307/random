@@ -12,12 +12,12 @@ import AboutPageContainer from './components/aboutpage/';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
-        <Route exact path="/">
+        <Route exact path={`/`}>
           <HomePageContainer/>
         </Route>
-        <Route path="/about">
+        <Route exact path={`/about`}>
           <AboutPageContainer />
         </Route>
         

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Nav, Navbar, NavItem, MenuItem, NavDropdown, Image } from 'react-bootstrap';
 import pic from '../../../images/white-logo.png';
+import {Link} from 'react-router-dom';
 
 export default  class PageHeader extends React.Component {
 	constructor(props) {
@@ -19,13 +20,13 @@ export default  class PageHeader extends React.Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-              <NavItem eventKey={1} href="#">
+              <NavItem eventKey={1} href="/" >
                 Home
               </NavItem>
-              <NavItem eventKey={2} href="#">
+              <NavItem eventKey={2} href="/about">
                 About
               </NavItem>
-              <NavItem eventKey={2} href="#" className="loginBtn">
+              <NavItem eventKey={2} href="" className="loginBtn">
                 Login
               </NavItem>
             </Nav>
