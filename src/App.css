@@ -747,6 +747,25 @@ CSS Header
   }
 }
 
+@media (min-width: 1024px) {
+  .bgHeadingCircle h1{
+    margin-top: 55px;
+    margin-bottom: 30px;
+  }
+  .bgHeadingCircle {
+    background-image: url("images/circle.png");
+    background-position: 56%  0px;
+    background-repeat: no-repeat;
+    background-size: 25%;
+  }
+  .bgCircle {
+    background-image: url("images/circle.png"), url("images/circle.png"), url("images/circle.png");
+    background-position: -40px -230px, 1220px 100px, 200px 110%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 400px, 200px, 220px;
+  }
+}
+
 @media (min-width: 501px) and (max-width: 991px) {
   .sectionAccess h1,
   .sectionAccess h1,

@@ -9,10 +9,10 @@ export default  class Section2Home extends React.Component {
 	}
 	render() {
     return (
-      <section className="sectionAccess white">
+      <section className="sectionAccess white bgCircle">
       	<Grid>
       		<Row className="destopVersion">
-      		  <Col lg={6} md={6} sm={6} xs={12}>
+      		  <Col lg={6} md={6} sm={6} xs={12} className="bgHeadingCircle">
       		    <h1>Zero Carbon Now</h1>
       		    <p>Clean energy is our specialty. We offer a suite of solutions to allow all companies access to optimized clean energy.</p>
       		    <Button className="headerButton textBlack inline-block">Get Your Access</Button>
