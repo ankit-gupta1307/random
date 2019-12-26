@@ -241,7 +241,8 @@ About Page Section CSS
   }
 }
 
-@media (min-width: 991px) {
+
+/*@media (min-width: 991px) {
  .overlay::after{
    content: ' ';
    background: #000;
@@ -251,6 +252,31 @@ About Page Section CSS
    height: 30%;
    position: absolute;
  } 
+}*/
+
+@media (min-width: 991px) and (max-width: 1400px) {
+  .overlay::after{
+    content: ' ';
+    background: #000;
+    left: 30%;
+    right: 0;
+    top: 0;
+    height: 30%;
+    position: absolute;
+  }
+}
+
+@media (min-width: 1401px) {
+  .overlay::after{
+    content: ' ';
+    background: #000;
+    left: 30%;
+    right: 0%;
+    width: 1140px;
+    top: 0;
+    height: 30%;
+    position: absolute;
+  }
 }
 
 .sectionAbout1 h1{
