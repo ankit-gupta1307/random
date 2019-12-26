@@ -18,7 +18,7 @@ export default  class PageHeader extends React.Component {
           <Navbar.Header>
             <Navbar.Brand>
               <a href="/">
-              { window.location.pathname == '/' ? <Image src={logoWhite} className="logoWhite" /> : <Image src={logoBlack} className="logoBlack"/> }
+              {window.location.pathname == '/' || window.location.pathname == '/contact'  ? <Image src={logoWhite} className="logoWhite" /> : <Image src={logoBlack} className="logoBlack"/> }
               </a>
             </Navbar.Brand>
             <Navbar.Toggle />
@@ -30,6 +30,9 @@ export default  class PageHeader extends React.Component {
               </NavItem>
               <NavItem eventKey={2} href="/about">
                 About
+              </NavItem>
+              <NavItem eventKey={2} href="/contact">
+                Contact
               </NavItem>
               <NavItem eventKey={2} href="" className="loginBtn">
                 Login

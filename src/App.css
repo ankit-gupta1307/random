@@ -149,6 +149,7 @@ section {
     background-size: cover;
     min-height: 300px;
   }
+  
 }
 
 @media(max-width: 500px) {
@@ -809,4 +810,15 @@ CSS Header
   .sectionAccess h1{
     font-size: 37px!important;
   }
+}
+
+
+
+/*======================
+Contact Page
+=========================*/
+.sectionContact.bg{
+  background: url("images/aboutUsBanner.png") center center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
