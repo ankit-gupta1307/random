@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-import { Grid, Row, Col, Nav, Navbar, NavItem, MenuItem, NavDropdown, Image } from 'react-bootstrap';
-import pic from '../../../images/white-logo.png';
+import React from 'react';
+import { Nav, Navbar, NavItem, MenuItem, NavDropdown, Image } from 'react-bootstrap';
+import logoWhite from '../../../images/white-logo.png';
+import logoBlack from '../../../images/black-logo.png';
+
 import {Link} from 'react-router-dom';
 
 export default  class PageHeader extends React.Component {
@@ -8,13 +10,16 @@ export default  class PageHeader extends React.Component {
 		super(props)
     this.state = {}
 	}
+
 	render() {
     return (
       <div>
       	<Navbar collapseOnSelect className="customHeader">
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="homepage"><Image src={pic} /></a>
+              <a href="/">
+              { window.location.pathname == '/' ? <Image src={logoWhite} className="logoWhite" /> : <Image src={logoBlack} className="logoBlack"/> }
+              </a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>

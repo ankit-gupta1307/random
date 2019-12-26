@@ -488,6 +488,16 @@ Footer CSS
   .leftSide p{
     margin-top: -30px;
   }
+  .logoWhite{
+    display: block;
+    margin-top: 30px;
+    width: 137px;
+  }
+  .logoBlack{
+    display: block;
+    margin-top: 30px;
+    width: 137px;
+  }
 }
 .rightSide h1{
   font-size: 27px;
