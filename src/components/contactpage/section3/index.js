@@ -1,49 +1,42 @@
 import React from 'react';
-import { Grid, Row, Col, Image } from 'react-bootstrap';
-import partner01 from '../../../images/partner01.png';
-import partner02 from '../../../images/partner02.png';
-import partner03 from '../../../images/partner03.png';
-import partner04 from '../../../images/partner04.png';
-import partner05 from '../../../images/partner05.png';
-import partner06 from '../../../images/partner06.png';
+import { Grid, Row, Col, Image, Button } from 'react-bootstrap';
+import pic from '../../../images/proccess.png';
+
 
 export default  class Section3Contact extends React.Component {
-	constructor(props) {
-		super(props)
+  constructor(props) {
+    super(props)
     this.state = {}
-	}
-	render() {
+  }
+  render() {
     return (
-      <section className="sectionAbout3 sky">
-      	<Grid>
-      		<Row>
-      			<Col lg={7} md={7} sm={8} xs={12} lgOffset={3} lgOffset={3} smOffset={2} >
-      		    <h1>HST is backed by some of the most influential thinkers in the world.</h1>
-              <p>We are bringing clean energy to the world together.</p>
-      			</Col>
-      		  
-      		  <Col lg={4} md={4} sm={4} xs={6}>
-      		  	<Image src={partner01} />
-      		  </Col>
-            <Col lg={4} md={4} sm={4} xs={6}>
-              <Image src={partner02} />
+      <section className="sectionAccess white bgCircle3Contact">
+        <Grid>
+          <Row className="destopVersion">
+            <Col lg={6} md={6} sm={6} xs={12} className="bgHeadingCircle">
+              <h1>Streamline your Decisions</h1>
+              <p>Developers use the platform to cut through the clutter and streamline their processes.</p>
+              <Button className="headerButton textBlack inline-block">Get Started</Button>
             </Col>
-            <Col lg={4} md={4} sm={4} xs={6}>
-              <Image src={partner03} />
+            <Col lg={6} md={6} sm={6} xs={12} lgOffset={0}>
+              <Image src={pic} responsive />
             </Col>
+          </Row>
 
-            <Col lg={4} md={4} sm={4} xs={6}>
-              <Image src={partner04} />
+          <Row className="mobileVersion">
+            <Col lg={6} md={6} sm={6} xs={12}>
+              <h1>Streamline your Decisions</h1>
+              <Image src={pic} responsive />
+              <p>Developers use the platform to cut through the clutter and streamline their processes.</p>
+              </Col>
+            <Col lg={6} md={6} sm={6} xs={12} lgOffset={0}>
+              <Button className="headerButton textBlack inline-block">Get Started</Button>
             </Col>
-            <Col lg={4} md={4} sm={4} xs={6}>
-              <Image src={partner05} />
-            </Col>
-            <Col lg={4} md={4} sm={4} xs={6}>
-              <Image src={partner06} />
-            </Col>
-      		</Row>
-      	</Grid>
+          </Row>
+
+        </Grid>
       </section>
+
     );
   }
  }

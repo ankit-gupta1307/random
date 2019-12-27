@@ -1,5 +1,6 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap'
+import { Grid, Row, Col, Image } from 'react-bootstrap';
+import map from '../../../images/map.png';
 
 export default  class Section5Contact extends React.Component {
 	constructor(props) {
@@ -8,14 +9,18 @@ export default  class Section5Contact extends React.Component {
 	}
 	render() {
     return (
-      <section className="sectionAbout5 white bg">
-      	<Grid>
-      		<Row>
-      		  <Col lg={5} lg={4} md={6} sm={6} xs={12} mdOffset={3} smOffset={3}>
-      		    <h1 className="textWhite textSizeSmall">Let's create a zero carbon world together</h1>
-      		  </Col>
-      		</Row>
-      	</Grid>
+      <section className="sectionContact4 auto white">
+        <Grid>
+          <Row>
+            <Col lg={12} lg={12} md={12} sm={12} xs={12}>
+              <h1>Global Reach of Projects Run through HST</h1>
+            </Col>
+            <Col lg={12} md={12} sm={12} xs={12}>
+              <Image src={map} responsive/>
+              </Col>
+          </Row>
+
+        </Grid>
       </section>
     );
   }
