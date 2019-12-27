@@ -12,7 +12,7 @@ export default  class Section8Contact extends React.Component {
         <Grid>
           <Row>
             <Col lg={12} md={12} sm={12} xs={12}>
-              
+              &nbsp;
             </Col>
           </Row>
         </Grid>

@@ -970,3 +970,106 @@ Contact Page
 
 
 
+
+
+
+
+
+.sectionPrice{
+  border-top: 16px solid #53CCF9;
+}
+
+.priceList h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+
+.priceList p {
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  margin: 20px 0;
+}
+.priceBox {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.161);
+  border-radius: 5px;
+  text-align: center;
+  width: 416px;
+  margin: 40px auto;
+}
+.priceBox img{
+  display: block;
+  width: 72px;
+  margin:40px auto;
+}
+.boxHeader.blue {
+  background: #25274D;
+  box-shadow: 0px 10px 17px rgba(0, 0, 0, 0.161);
+  border-radius: 5px;
+  padding: 15px;
+}
+.boxHeader.blue h1{
+  font-size: 23px;
+  text-align: center;
+  color: #53CCF9;
+  margin:0;
+  padding: 0;
+}
+
+.boxHeader.subHeading{
+  background: #F8F9F9;
+  box-shadow: 0px 10px 17px rgba(0, 0, 0, 0.161);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.boxHeader.subHeading h1{
+  font-size: 21px;
+  font-weight: 800;
+  color: #191919;
+  text-align: center;
+  margin:0;
+  padding: 0;
+}
+
+.priceBox ul{
+  margin: 10px 0;
+  padding: 0;
+  text-align: center; 
+}
+
+.priceBox  ul li{
+  display: block;
+  list-style: none;
+  margin:4px 0;
+  font-size: 21px;
+  font-weight: 500;
+  color: #191919;
+}
+
+.priceBox p{
+  font-size: 14px;
+  color: #25274D;
+}
+.priceBox button{
+  display: block;
+  width: 100%;
+  font-size: 23px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  background: #53CCF9;
+  border-radius: 5px;
+  padding: 14px 15px;
+}
+.priceBox button:hover{
+  background: #53CCF9;
+  color: #000;
+}
+
+
+
