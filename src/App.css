@@ -67,7 +67,7 @@ section {
     background: #fff;
 }
 .black {
-    background: #000;
+    background: #25274D;
 }
 
 .auto{
@@ -530,7 +530,7 @@ Footer CSS
 }
 .rightSide h1{
   font-size: 27px;
-  color: #fcf113;
+  color: #53CCF9;
   margin-bottom: 10px;
 }
 
@@ -566,18 +566,18 @@ Footer CSS
 }
 ::placeholder {
   font-size: 21px;
-  color: #605c5c;
+  color: rgba(255, 255, 255, 0.43);
   opacity: 1;
 }
 
 :-ms-input-placeholder {
   font-size: 21px;
-  color: #605c5c;
+  color: rgba(255, 255, 255, 0.43);
 }
 
 ::-ms-input-placeholder {
   font-size: 21px;
-  color: #605c5c;
+  color: rgba(255, 255, 255, 0.43);
 }
 .footerForm input:focus{
   outline: none;
