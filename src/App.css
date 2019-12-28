@@ -1241,3 +1241,33 @@ Contact Page
   margin-left: -15px;
   margin-right: -15px;
 }
+
+.owl-next{
+  position: absolute;
+  right: 0;
+  top:40%;
+  transform: translate(-50%,-50%);
+}
+.owl-prev{
+  position: absolute;
+  left: 0;
+  top:40%;
+  transform: translate(-50%,-50%);
+}
+.owl-next,
+.owl-prev{
+  display: block;
+  background-color: #25274D!important;
+  border:3px solid #53CCF9!important;
+  width: 64px!important;
+  height: 64px!important;
+  border-radius: 50%!important;
+  padding-top: 0px;
+  outline: none;
+}
+.owl-next > span,
+.owl-prev > span{
+  font-size: 25px!important;
+  font-weight: bold!important;
+  color: #fff;
+}
