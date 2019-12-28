@@ -150,6 +150,9 @@ section {
   .secionFour{
     border-top: 10px solid rgb(0,0,0);
   }
+  .viewSection{
+    height: auto;
+  }
 } 
 .sectionLast p{
   font-size: 21px;
@@ -1140,6 +1143,11 @@ Contact Page
     padding-top: calc(100% - 150px);
   }
 }
+ @media (max-width: 761px) {
+  .userDataImage {
+    margin: 20px auto;
+  }
+ }
 
 .userDataDisplay input{
   display: flex;
