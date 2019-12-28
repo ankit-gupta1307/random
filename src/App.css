@@ -1084,4 +1084,128 @@ Contact Page
 }
 
 
+.userForm input{
+  width: 100%;
+  background-color: #fff;
+  border:1px solid #fff;
+  height: 35px;
+  padding: 17px 15px 15px 15px;
+  color: rgba(147, 147, 147, 0.73);
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.userForm input::placeholder {
+  font-size: 18px;
+  color: rgba(147, 147, 147, 0.73);;
+  opacity: 1;
+}
 
+.userForm input:-ms-input-placeholder {
+  font-size: 18px;
+  color: rgba(147, 147, 147, 0.73);;
+}
+
+.userForm input::-ms-input-placeholder {
+  font-size: 18px;
+  color: rgba(147, 147, 147, 0.73);;
+}
+
+.userForm input:focus{
+  outline: none;
+  border-bottom:1px solid red;
+}
+
+.userForm input.error{
+  outline: none;
+  border-bottom:1px solid red;
+}
+
+
+.userForm button,
+.userForm button:hover,
+.userForm button:focus,
+.userForm button:active:focus{
+  font-size: 21px;
+  background-color: transparent;
+  border:0px solid #fff;
+  color: #fff;
+  text-align: center;
+  height: 35px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+
+
+@media (min-width: 991px) {
+  .userDataImage{
+    padding-top: 40%;
+    margin: auto -15px auto auto;
+  }
+
+  .userDataDisplay{
+    padding-top: 70%;
+  }
+}
+
+.userDataDisplay input{
+  display: flex;
+  font-size: 21px;
+  font-weight: bold;
+  width: 90%;
+  background-color: #fff;
+  border:1px solid #fff;
+  height: 35px;
+  padding: 17px 15px 15px 15px;
+  margin: 5px auto;
+  border-radius: 20px;
+  text-align: center;
+  color: #000;
+}
+.userDataDisplay input::placeholder {
+  font-size: 18px;
+  color: #000;
+  opacity: 1;
+}
+
+.userDataDisplay input:-ms-input-placeholder {
+  font-size: 18px;
+  color: #000;
+}
+
+.userDataDisplay input::-ms-input-placeholder {
+  font-size: 18px;
+  color: #000;
+}
+
+.userDataDisplay input:focus{
+  outline: none;
+  border-bottom:1px solid #fff;
+}
+
+.userDataDisplay input.error{
+  outline: none;
+  border-bottom:1px solid red;
+}
+
+
+.userDataDisplay button,
+.userDataDisplay button:hover,
+.userDataDisplay button:focus,
+.userDataDisplay button:active:focus{
+  font-size: 21px;
+  background-color: transparent;
+  border:0px solid #fff;
+  color: #fff;
+  text-align: center;
+  height: 35px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.userDataDisplay p{
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(0,0,0,.9, );
+}

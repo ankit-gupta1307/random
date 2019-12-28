@@ -11,6 +11,7 @@ import Section6Contact from '../contactpage/section6/';
 import Section7Contact from '../contactpage/section7/';
 import Section8Contact from '../contactpage/section8/';
 import Section9Contact from '../contactpage/section9/';
+import Section10Contact from '../contactpage/section10/';
 import Section6Home from '../homepage/section6/';
 
 export default class ContactPageContainer extends Component {
@@ -21,6 +22,7 @@ export default class ContactPageContainer extends Component {
 				<PageHeader />
 				<Section1Contact/>
 			  <Section2Contact/>
+			  <Section10Contact/>
 			  <Section7Contact />
 			  <Section8Contact />
 			  <Section3Contact/>

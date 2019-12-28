@@ -21,7 +21,7 @@ function App() {
         <Route exact path={`/about`}>
           <AboutPageContainer />
         </Route>
-        <Route exact path={`/contact`}>
+        <Route exact path={`/view`}>
           <ContactPageContainer />
         </Route>
       </div>
