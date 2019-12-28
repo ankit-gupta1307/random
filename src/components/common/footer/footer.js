@@ -14,10 +14,10 @@ export default  class PageFooter extends React.Component {
           <Col lg={6} className="leftSide">
             <ul>
               <li>
-                <a href="#"><Image src="https://d3n32ilufxuvd1.cloudfront.net/5d7ae84c6d212c0a00da6054/1538099/upload-4e3ce914-13a1-4baa-9d7a-cc323162095f.png" /></a>
+                <a href="https://www.linkedin.com/company/hst-solar/about/"><Image src="https://d3n32ilufxuvd1.cloudfront.net/5d7ae84c6d212c0a00da6054/1538099/upload-4e3ce914-13a1-4baa-9d7a-cc323162095f.png" /></a>
               </li>
               <li>
-                <a href="#"><Image src="https://d3n32ilufxuvd1.cloudfront.net/5d7ae84c6d212c0a00da6054/1538099/upload-d72c12b7-94d0-408b-a39f-c6c26aed58db.png" /></a>
+                <a href="https://twitter.com/hstsolar?lang=en"><Image src="https://d3n32ilufxuvd1.cloudfront.net/5d7ae84c6d212c0a00da6054/1538099/upload-d72c12b7-94d0-408b-a39f-c6c26aed58db.png" /></a>
               </li>
             </ul>
             <p>Press</p>
