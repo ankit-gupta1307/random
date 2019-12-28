@@ -1236,3 +1236,8 @@ Contact Page
       margin: 0 auto;
   }
 }
+
+.customRow{
+  margin-left: -30px;
+  margin-right: -30px;
+}

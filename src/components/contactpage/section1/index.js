@@ -13,7 +13,7 @@ export default  class Section1Contact extends React.Component {
         <Row>
           <Col lg={12}>
             <section className="sectionAlign sectionContact bg">
-              <Row className="headerContent">
+              <Row className="headerContent customRow">
                 <Col lg={12} md={12} sm={12} xs={12} lgOffset={0}>
                   <h1>View</h1>
                   <p>The #1Clean Energy Development <span> Software Platform.</span></p>
