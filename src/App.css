@@ -964,7 +964,11 @@ Contact Page
   height: 100vh;
 }
 
-
+@media(max-width: 767px) {
+  .servicesbg {
+    height: 300px;
+  }
+}
 
 
 

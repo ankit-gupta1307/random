@@ -5,7 +5,12 @@ export default  class Section1Home extends React.Component {
 	constructor(props) {
 		super(props)
     this.state = {}
+    this.handleClick = this.handleClick.bind(this);
 	}
+
+  handleClick() {
+    window.location.href = "/view"
+  }
   
 	render() {
     return (
@@ -25,7 +30,7 @@ export default  class Section1Home extends React.Component {
                   <Button className="headerButton textYellow full">Buy Clean Energy</Button>
                 </Col>
                 <Col lg={3} md={6} sm={6} xs={12}>
-                  <Button className="headerButton textYellow full">Develop Clean Energy</Button>
+                  <Button className="headerButton textYellow full" onClick={this.handleClick}>Develop Clean Energy</Button>
                 </Col>
               </Row>
 

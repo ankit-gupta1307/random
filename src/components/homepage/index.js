@@ -26,9 +26,7 @@ export default class HomePageContainer extends Component {
 		      <Section3Home/>
 		      <Section4Home/>
 		      <Section5Home/>
-
 		      
-
 		      <Section6Home/>
 			</React.Fragment>
 		)
