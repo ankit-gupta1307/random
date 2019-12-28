@@ -215,7 +215,7 @@ section {
     padding-bottom: 40px;
   }
   .sectionAccess h1{
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     font-weight: bold;
   }
@@ -880,7 +880,7 @@ CSS Header
   .sectionAccess h1,
   .sectionAccess h1,
   .sectionAccess h1{
-    font-size: 37px!important;
+    font-size: 40px!important;
   }
 }
 
@@ -1222,6 +1222,10 @@ Contact Page
 @media(max-width: 991px) {
   .sliderContainer{
     width: 100%;
+  }
+  .sliderHeading{
+    font-size: 40px!important;
+    margin-bottom: 50px;
   }
 }
 
