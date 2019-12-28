@@ -10,10 +10,10 @@ export default  class Section3Contact extends React.Component {
   }
   render() {
     return (
-      <section className="sectionAccess sectionAlign gray bgCircle3Contact">
+      <section className="sectionAccess sectionAlign gray bgCircle3Contact viewSection">
         <Grid>
           <Row>
-            <Col lg={4} md={4} sm={4} xs={12} className="bgHeadingCircle">
+            <Col lg={4} md={4} sm={4} xs={12} className="bgHeadingCircle MTNone">
               <h1>Make the Switch</h1>
               <p>Estimate the boost to your project returns</p>
               <Row className="userForm">

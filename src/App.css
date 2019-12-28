@@ -965,16 +965,6 @@ Contact Page
 
 
 
-
-
-
-
-
-
-
-
-
-
 .sectionPrice{
   border-top: 16px solid #53CCF9;
 }
@@ -1138,13 +1128,16 @@ Contact Page
 
 
 @media (min-width: 991px) {
+  .MTNone h1{
+    margin-top: 0;
+  }
   .userDataImage{
-    padding-top: 40%;
+    padding-top: calc(100% - 300px);
     margin: auto -15px auto auto;
   }
 
   .userDataDisplay{
-    padding-top: 70%;
+    padding-top: calc(100% - 150px);
   }
 }
 
