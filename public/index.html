@@ -25,6 +25,12 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" />
+
+    
+
     <title>React App</title>
   </head>
   <body>
@@ -45,5 +51,29 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/highlight.js"></script>
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/js/app.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+          //stagePadding: 100,
+          items: 4,
+          loop: true,
+          margin: 10,
+          merge: true,
+          responsive: {
+            678: {
+              mergeFit: true
+            },
+            1000: {
+              mergeFit: false
+            }
+          }
+        });
+      })
+    </script>
   </body>
 </html>
