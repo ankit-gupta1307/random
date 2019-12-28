@@ -1218,6 +1218,13 @@ Contact Page
 .sliderHeading{
   margin-bottom: 50px;
 }
+
+@media(max-width: 991px) {
+  .sliderContainer{
+    width: 100%;
+  }
+}
+
 @media(min-width: 991px) {
   .owl-carousel .owl-item img {
       display: block;
