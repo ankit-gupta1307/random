@@ -25,10 +25,10 @@ export default class ContactPageContainer extends Component {
 			  <Section10Contact/>
 			  <Section7Contact />
 			  <Section8Contact />
-			  <Section3Contact/>
 			  <Section5Contact/>
 			  <Section6Contact/>
 			  <Section4Contact/>
+			  <Section3Contact/>
 			  <Section9Contact />
 			  <Section6Home/>
 			</React.Fragment>
