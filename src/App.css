@@ -1244,13 +1244,13 @@ Contact Page
 
 .owl-next{
   position: absolute;
-  right: 0;
+  right: 20px;
   top:40%;
   transform: translate(-50%,-50%);
 }
 .owl-prev{
   position: absolute;
-  left: 0;
+  left: 20px;
   top:40%;
   transform: translate(-50%,-50%);
 }
