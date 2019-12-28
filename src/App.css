@@ -1256,7 +1256,6 @@ Contact Page
 }
 .owl-next,
 .owl-prev{
-  display: block;
   background-color: #25274D!important;
   border:3px solid #53CCF9!important;
   width: 64px!important;
@@ -1271,3 +1270,18 @@ Contact Page
   font-weight: bold!important;
   color: #fff;
 }
+
+@media(max-width: 991px) {
+  .owl-next,
+  .owl-prev{
+    display: none!important;
+  }
+}
+
+
+
+
+
+
+
+
