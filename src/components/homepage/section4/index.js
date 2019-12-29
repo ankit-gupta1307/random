@@ -13,7 +13,7 @@ export default  class Section4Home extends React.Component {
       	<Grid>
       		<Row>
       		  <Col lg={6} md={6} sm={6} xs={12}>
-      		    <h1>Clean Energy for 80 Countries and Counting</h1>
+      		    <h1>Clean Energy for <span>80 Countries and Counting</span></h1>
               <Image src={pic} className="mobileVersion" alt="logo" responsive/>
       		    <p>With Cue, you join other committed companies to create a cost-optimized power syndicate. The more that join the network, the more amplified the social impact.</p>
       		    <Button className="headerButton textBlack inline-block">Green The Grid</Button>

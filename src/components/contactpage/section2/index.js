@@ -14,7 +14,7 @@ export default  class Section2Contact extends React.Component {
         <Grid>
           <Row className="destopVersion">
             <Col lg={6} md={6} sm={6} xs={12} className="bgHeadingCircle">
-              <h1>Higher Returns with Less Risk</h1>
+              <h1>Higher Returns with <span>Less Risk</span></h1>
               <p>Developers on our network are bringing the grid enough clean energy for 1 Billion people over the next decade.</p>
               <Button className="headerButton textBlack inline-block">Develop Projects</Button>
             </Col>
