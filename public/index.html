@@ -57,24 +57,20 @@
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/js/app.js"></script>
 
     <script>
-      $(document).ready(function() {
-        $('.owl-carousel').owlCarousel({
-          //stagePadding: 100,
-          items: 4,
-          loop: true,
-          margin: 10,
-          merge: true,
+      jQuery(document).ready(function($) {
+        $('.nonloop').owlCarousel({
+          center: true,
+          items: 1,
+          loop: false,
           nav:true,
+          margin: 10,
           responsive: {
-            678: {
-              mergeFit: true
-            },
-            1000: {
-              mergeFit: true
+            320: {
+              items: 2
             }
           }
         });
-      })
+      });
     </script>
   </body>
 </html>

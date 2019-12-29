@@ -10,8 +10,8 @@ export default  class Section5View extends React.Component {
 	}
 	render() {
     return (
-      <section className="sectionAlign sectionLast gray text-center">
-      	<Grid className="sliderContainer">
+      <section className="sectionSlider gray text-center">
+      	<Grid fluid className="sliderContainer1">
       		<Row>
             <Col lg={12} md={12} sm={12} xs={12}>
               <h1 className="sliderHeading">The Platform</h1>
@@ -19,31 +19,25 @@ export default  class Section5View extends React.Component {
 
       		  <Col lg={12} md={12} sm={12} xs={12}>
 
-              <div className="row">
-                <div className="large-12 columns">
-                  <div className="owl-carousel owl-theme">
-                    <div className="item" data-merge="3">
+              <div class="row">
+                <div class="large-12 columns">
+                  <div class="nonloop owl-carousel">
+                    <div class="item">
                       <Image src={pic} />
                     </div>
-                    <div className="item" data-merge="3">
+                    <div class="item">
                       <Image src={pic} />
                     </div>
-                    <div className="item" data-merge="3">
+                    <div class="item">
                       <Image src={pic} />
                     </div>
-                    <div className="item" data-merge="3">
+                    <div class="item">
                       <Image src={pic} />
                     </div>
-                    <div className="item" data-merge="3">
+                    <div class="item">
                       <Image src={pic} />
                     </div>
-                    <div className="item" data-merge="3">
-                      <Image src={pic} />
-                    </div>
-                    <div className="item" data-merge="3">
-                      <Image src={pic} />
-                    </div>
-                    <div className="item" data-merge="3">
+                    <div class="item">
                       <Image src={pic} />
                     </div>
                   </div>
