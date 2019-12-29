@@ -122,7 +122,7 @@ section {
 }
 .sectionLast{
   height: auto!important;
-  padding: 60px;
+  padding: 60px 60px 80px 60px;
 }
 
 .sectionLast h1{
@@ -136,8 +136,8 @@ section {
 @media (max-width: 991px) {
   .sectionLast{
     height: auto!important;
-    padding: 15px 15px;
-    border-top: 10px solid rgb(252,241,19);
+    padding: 30px 15px 50px 15px;
+    border-top: 10px solid #53CCF9;
   }
   .sectionLast h1 {
     font-size: 27px;
@@ -184,6 +184,10 @@ section {
     background-size: cover;
     min-height: 300px;
   }
+  .mobileTextHome{
+    text-align: right!important;
+    padding-left: 35%;
+  }
 }
 .plrnone{
   padding-left: 0;
@@ -219,13 +223,19 @@ section {
     text-align: center;
     font-weight: bold;
   }
-  .sectionAccess p,
   .sectionAccess h2{
     font-size: 21px;
     font-weight: bold;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 15px;
+  }
+  .sectionAccess p {
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1275,6 +1285,22 @@ Contact Page
   .owl-next,
   .owl-prev{
     display: none!important;
+  }
+}
+
+
+@media(max-width: 767px) {
+  .mobileImg{
+    margin: 50px 0;
+  }
+  .sectionAccess h1{
+    padding-top: 30px;
+  }
+  .mobileMarginTop{
+    margin-top: 50px;
+  }
+  .mobileTime{
+    margin-bottom: 0!important;
   }
 }
 
