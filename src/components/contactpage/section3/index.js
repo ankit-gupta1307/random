@@ -19,7 +19,7 @@ export default  class Section3Contact extends React.Component {
               <Button className="headerButton textBlack inline-block">Get Started</Button>
             </Col>
             <Col lg={6} md={6} sm={6} xs={12} lgOffset={0}>
-              <Image src={pic} responsive />
+              <Image src={pic} responsive className="imgScale2"/>
             </Col>
           </Row>
 

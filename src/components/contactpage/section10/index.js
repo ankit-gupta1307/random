@@ -10,7 +10,7 @@ export default  class Section3Contact extends React.Component {
   }
   render() {
     return (
-      <section className="sectionAccess sectionAlign gray bgCircle3Contact viewSection">
+      <section className="sectionAccess sectionAlign gray bgCircle3ViewMake viewSection">
         <Grid>
           <Row>
             <Col lg={4} md={4} sm={4} xs={12} className="bgHeadingCircle MTNone">

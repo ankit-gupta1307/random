@@ -10,16 +10,16 @@ export default  class Section2Contact extends React.Component {
 	}
 	render() {
     return (
-      <section className="sectionAccess white bgCircle4Contact">
+      <section className="sectionAccess white bgCircle4View">
         <Grid>
           <Row className="destopVersion">
-            <Col lg={6} md={6} sm={6} xs={12} className="bgHeadingCircle">
+            <Col lg={6} md={6} sm={6} xs={12} >
               <h1>Higher Returns with <span>Less Risk</span></h1>
               <p>Developers on our network are bringing the grid enough clean energy for 1 Billion people over the next decade.</p>
               <Button className="headerButton textBlack inline-block">Develop Projects</Button>
             </Col>
             <Col lg={6} md={6} sm={6} xs={12} lgOffset={0}>
-              <Image src={pic} responsive />
+              <Image src={pic} responsive className="imgScale3" />
             </Col>
           </Row>
 
