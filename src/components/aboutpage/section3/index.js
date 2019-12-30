@@ -14,7 +14,7 @@ export default  class Section3About extends React.Component {
 	}
 	render() {
     return (
-      <section className="sectionAbout3 bgTheme  sectionParter">
+      <section className="sectionAbout3 bgTheme sectionParter">
       	<Grid>
       		<Row>
       			<Col lg={8} md={8} sm={8} xs={12} lgOffset={2} lgOffset={2} smOffset={2} >

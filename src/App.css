@@ -851,7 +851,7 @@ CSS Header
   }
 }
 .customHeader.navbar-default .navbar-nav>li.loginBtn a{
-  border: 4px solid #53CCF9;
+  border: 4px solid #fff;
   border-radius: 5px;
 }
 .customHeader.navbar-default .navbar-nav>li.loginBtn a:hover{
@@ -941,6 +941,12 @@ CSS Header
     background-position: -200px 70%, 1100px 70%, 20% 105%;
     background-repeat: no-repeat, no-repeat;
     background-size: 300px, 178px, 150px;
+  }
+  .bgCircleAboutApproach {
+    background-image: url("images/circle.png"), url("images/circle.png");
+    background-position: -200px 0%, 1100px 90%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 300px, 178px;
   }
 }
 
@@ -1448,10 +1454,13 @@ Contact Page
   padding-top: 150px;
   padding-bottom: 150px;
 }
-
+.sectionParter img{
+  margin-bottom: -10px;
+  width:auto;
+}
 .ParterP{
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 100px!important;
 }
 
 
