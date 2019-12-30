@@ -13,7 +13,7 @@ import Section8Contact from '../contactpage/section8/';
 import Section9Contact from '../contactpage/section9/';
 import Section10Contact from '../contactpage/section10/';
 import Section11View from '../contactpage/section11/';
-import Section6Home from '../homepage/section6/';
+import PageFooter from '../common/footer/';
 
 export default class ContactPageContainer extends Component {
 
@@ -32,7 +32,7 @@ export default class ContactPageContainer extends Component {
 			  <Section3Contact/>
 			  <Section11View />
 			  <Section9Contact />
-			  <Section6Home/>
+			  <PageFooter/>
 			</React.Fragment>
 		)
 	}
