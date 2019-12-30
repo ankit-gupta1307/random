@@ -17,7 +17,7 @@ export default  class Section1Home extends React.Component {
       <Grid className="customContainer">
         <Row>
           <Col lg={12}>
-            <section className="sectionAlign section1Home green">
+            <section className="sectionAlign section1Home bgColorBlack">
               <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
                 <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4" />
               </video>

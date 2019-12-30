@@ -9,7 +9,7 @@ export default  class Section1About extends React.Component {
 	}
 	render() {
     return (
-      <section className="sectionAbout1 white bg">
+      <section className="sectionAbout1 white bg bgCircle4About1n2">
       	<Grid>
           <div className="overlay"></div>
       		<Row>

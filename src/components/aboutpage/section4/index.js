@@ -11,11 +11,11 @@ export default  class Section4About extends React.Component {
 	}
 	render() {
     return (
-      <section className="sectionAbout4 white">
+      <section className="sectionAbout4 white sectionView4">
       	<Grid>
       		<Row>
       			<Col lg={12} lg={12} md={12} sm={12} xs={12}>
-      		    <h1>Our Approach</h1>
+      		    <h1 className="aboutApproach">Our Approach</h1>
       			</Col>
       		  <Col lg={4} md={4} sm={4} xs={12}>
       		  	<Image src={icon1} />
@@ -24,13 +24,13 @@ export default  class Section4About extends React.Component {
       		  </Col>
       		  <Col lg={4} md={4} sm={4} xs={12}>
       		  	<Image src={icon2} />
-      		    <h2>Drive scalable contracts</h2>
-      		    <p>We have leading marketplace algorithms to help clean energy buyers and sellers find the best contracts for them.</p>
+      		    <h2>Reduce energy price</h2>
+      		    <p>We have leading marketplace algorithms to help clean energy buyers and sellers find the best contracts.</p>
       		  </Col>
       		  <Col lg={4} md={4} sm={4} xs={12}>
       		  	<Image src={icon3} />
-      		    <h2>Reduce energy price</h2>
-      		    <p>We use optimization technology to help developers reduce the Levelized Cost of Energy.</p>
+      		    <h2>Drive scalable contracts</h2>
+      		    <p>We have leading marketplace algorithms to help clean energy buyers and sellers find the best contracts.</p>
       		  </Col>
       		</Row>
       	</Grid>

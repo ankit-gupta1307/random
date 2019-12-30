@@ -17,8 +17,8 @@ export default class AboutPageContainer extends Component {
 				<PageHeader />
 				<Section1About/>
 			  <Section2About/>
-			  <Section3About/>
 			  <Section4About/>
+			  <Section3About/>
 			  <Section5About/>
 			  <Section6Home/>
 			</React.Fragment>

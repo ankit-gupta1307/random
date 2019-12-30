@@ -15,7 +15,7 @@ export default  class Section5Home extends React.Component {
   
 	render() {
     return (
-      <section className="sectionAlign sectionLast gray text-center">
+      <section className="sectionAlign sectionLast white text-center sectionBorder">
       	<Grid>
       		<Row>
       		  <Col lg={5} md={6} sm={6} xs={12}>

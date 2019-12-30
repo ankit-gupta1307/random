@@ -36,6 +36,9 @@ html, body {
   padding-right: 0;
 }
 
+.fullSection{
+  height: 100vh;
+}
 
 
 /*@media (min-width: 1440px) {
@@ -118,6 +121,9 @@ section {
 .section1Home{
   padding-top: 100px;
   padding-bottom: 40px;
+}
+.bgColorBlack{
+  height: 100vh;
 }
 @media (max-width: 480px) {
   .section1Home{
@@ -272,11 +278,11 @@ About Page Section CSS
 @media (min-width: 768px) and (max-width: 990px) {
   .overlay::after{
     content: ' ';
-    background: #000;
+    background: #25274D;
     left: 30%;
     right: 0;
     top: 0;
-    height: 30%;
+    height: 40%;
     position: absolute;
   }
 }
@@ -297,11 +303,11 @@ About Page Section CSS
 @media (min-width: 991px) and (max-width: 1400px) {
   .overlay::after{
     content: ' ';
-    background: #000;
+    background: #25274D;
     left: 30%;
     right: 0;
     top: 0;
-    height: 30%;
+    height: calc(100% - 780px);
     position: absolute;
   }
 }
@@ -324,14 +330,15 @@ About Page Section CSS
   font-size: 42px;
   font-weight: bold;
   color: #000;
-  margin-top: 100px;
+  margin-top: 170px;
   margin-bottom: 40px;
 
 }
 .sectionAbout1 p{
   font-size: 21px;
+  font-weight: bold;
   color: #000;
-  margin-bottom: 30px;
+  margin-bottom: 170px;
 }
 
 @media (max-width: 480px) {
@@ -411,7 +418,7 @@ About Page Section CSS
   font-size: 47px;
   font-weight: bold;
   color: #000;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
 }
 
 .sectionAbout4 img{
@@ -437,6 +444,17 @@ About Page Section CSS
 
 .sectionAbout4 p{
   font-size: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #000;
+}
+.sectionView4{
+  padding-bottom: 200px;
+}
+.sectionView4 p{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 15px;
   color: #000;
 }
 
@@ -445,6 +463,17 @@ About Page Section CSS
   justify-content: center;
   align-items: center;
 }
+
+.bgTheme{
+  background-color: #25274D;
+}
+.themeTextColor{
+  color: #53CCF9!important;
+}
+.aboutApproach{
+  margin-top: 120px;
+}
+
 @media (max-width: 480px) {
   .sectionAbout5{
     padding-top: 30px;
@@ -495,6 +524,7 @@ Footer CSS
 .sectionFooter{
   padding-top: 30px;
   padding-bottom: 30px;
+  border-top: 50px solid #fff;
 }
 
 .leftSide ul {
@@ -893,11 +923,24 @@ CSS Header
     background-repeat: no-repeat, no-repeat;
     background-size: 300px, 178px;
   }
+  .bgCircle3Clear {
+    background-image: url("images/circle.png");
+    background-position: -200px 0px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+  }
   .bgHeadingCircle {
     background-image: url("images/circle.png");
     background-position: 61%  15px;
     background-repeat: no-repeat;
     background-size: 25%;
+  }
+
+  .bgCircle4About1n2 {
+    background-image: url("images/circle.png"), url("images/circle.png"), url("images/circle.png");
+    background-position: -200px 70%, 1100px 70%, 20% 105%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 300px, 178px, 150px;
   }
 }
 
@@ -1000,6 +1043,9 @@ Contact Page
 .sectionPrice{
   border-top: 16px solid #53CCF9;
 }
+.sectionBorder{
+  border-top: 16px solid #53CCF9;
+}
 
 .priceList h1 {
   font-size: 40px;
@@ -1033,6 +1079,12 @@ Contact Page
     text-align: center;
     width: 100%;
     margin: 40px auto;
+  }
+  .bgColorBlack{
+    background-color: #000;
+  }
+  video{
+    display: none;
   }
 }
 .priceBox img{
@@ -1351,6 +1403,9 @@ Contact Page
   .mobileTime{
     margin-bottom: 0!important;
   }
+  .textBlack{
+    color: #000;
+  }
 }
 @media(min-width: 991px) {
   .secionFour h1 span,
@@ -1389,6 +1444,16 @@ Contact Page
   font-weight: bold;
 }
 
+.sectionParter{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.ParterP{
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
 
 @media (max-width: 991px) {
   .sectionSlider{
@@ -1401,3 +1466,10 @@ Contact Page
     font-weight: bold;
   }
 } 
+
+
+@media (min-width: 1100px) {
+  .desktopTextAlign{
+    margin-top: 150px;
+  }
+}
