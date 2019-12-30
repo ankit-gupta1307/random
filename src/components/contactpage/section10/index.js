@@ -18,19 +18,19 @@ export default  class Section3Contact extends React.Component {
               <p>Estimate the boost to your project returns</p>
               <Row className="userForm">
                 <Col lg={12} md={12} sm={12} xs={12}>
-                  <input type="text" placeholder="Avg Number of Projects Built per year" />
+                  <input type="number" placeholder="Avg Number of Projects Built per year" />
                 </Col>
                 <Col lg={12} md={12} sm={12} xs={12}>
-                  <input type="text" placeholder="Blended development cost ($/hr)" />
+                  <input type="number" placeholder="Blended development cost ($/hr)" />
                 </Col>
                 <Col lg={12} md={12} sm={12} xs={12}>
-                  <input type="text" placeholder="Avg time to complete one bid package (hrs)" />
+                  <input type="number" placeholder="Avg time to complete one bid package (hrs)" />
                 </Col>
                 <Col lg={12} md={12} sm={12} xs={12}>
-                  <input type="text" placeholder="Avg Project Size (MWs)" />
+                  <input type="number" placeholder="Avg Project Size (MWs)" />
                 </Col>
               </Row>
-              <Button className="headerButton textBlack inline-block">Calculate</Button>
+              <Button className="headerButton numberBlack inline-block">Calculate</Button>
             </Col>
             <Col lg={4} md={4} sm={4} xs={12}>
               <Image src={pic} responsive className="userDataImage" />
@@ -38,15 +38,15 @@ export default  class Section3Contact extends React.Component {
             <Col lg={3} md={3} sm={3} xs={12}>
               <Row className="userDataDisplay">
                 <Col lg={12} md={12} sm={12} xs={12}>
-                  <input type="text" placeholder="$600,000 " disabled />
+                  <input type="number" placeholder="$600,000 " disabled />
                   <p>Pipeline Net Present Value gains</p>
                 </Col>
                 <Col lg={12} md={12} sm={12} xs={12}>
-                  <input type="text" placeholder="$973,184"disabled />
+                  <input type="number" placeholder="$973,184"disabled />
                   <p>Annual cost savings</p>
                 </Col>
                 <Col lg={12} md={12} sm={12} xs={12}>
-                  <input type="text" placeholder="$240" disabled />
+                  <input type="number" placeholder="$240" disabled />
                   <p>Origination gains</p>
                 </Col>
               </Row>

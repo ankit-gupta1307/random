@@ -1,7 +1,8 @@
 import React from 'react';
 import { Nav, Navbar, NavItem, MenuItem, NavDropdown, Image } from 'react-bootstrap';
 import logoWhite from '../../../images/white-logo.png';
-import logoBlack from '../../../images/black-logo.png';
+//import logoBlack from '../../../images/black-logo.png';
+import logoBlue from '../../../images/blue-logo.png';
 
 import {Link} from 'react-router-dom';
 
@@ -18,7 +19,7 @@ export default  class PageHeader extends React.Component {
           <Navbar.Header>
             <Navbar.Brand>
               <a href="/">
-              {window.location.pathname == '/' || window.location.pathname == '/view'  ? <Image src={logoWhite} className="logoWhite" /> : <Image src={logoBlack} className="logoBlack"/> }
+              {window.location.pathname == '/' || window.location.pathname == '/view'  ? <Image src={logoWhite} className="logoWhite" /> : <Image src={logoBlue} className="logoBlack"/> }
               </a>
             </Navbar.Brand>
             <Navbar.Toggle />

@@ -23,6 +23,17 @@ html, body {
   
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+
 @media (min-width: 1100px) {
 .container {
     width: 1060px!important;
@@ -999,8 +1010,8 @@ Contact Page
 .sIcons{
   margin: 0 auto;
   display: block;
-  width: 66px!important;
-  min-height: 94px;
+  width: auto!important;
+  /*min-height: 94px;*/
 }
 
 .displayData{
@@ -1169,9 +1180,9 @@ Contact Page
   background-color: #fff;
   border:1px solid #fff;
   height: 35px;
-  padding: 17px 15px 15px 15px;
+  padding: 17px 2px 15px 15px;
   color: rgba(147, 147, 147, 0.73);
-  margin: 10px 0;
+  margin: 7px 0;
   border-radius: 5px;
 }
 .userForm input::placeholder {
@@ -1192,7 +1203,7 @@ Contact Page
 
 .userForm input:focus{
   outline: none;
-  border-bottom:1px solid red;
+  border-bottom:1px solid #53CCF9;
 }
 
 .userForm input.error{
@@ -1222,7 +1233,7 @@ Contact Page
     margin-top: 0;
   }
   .userDataImage{
-    padding-top: calc(100% - 300px);
+    padding-top: calc(100% - 250px);
     margin: auto -15px auto auto;
   }
 
@@ -1480,5 +1491,8 @@ Contact Page
 @media (min-width: 1100px) {
   .desktopTextAlign{
     margin-top: 150px;
+  }
+  .textNoWrap{
+    white-space: nowrap;
   }
 }

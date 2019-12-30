@@ -29,7 +29,7 @@ export default  class Section4Contact extends React.Component {
       		  </Col>
       		  <Col lg={4} md={4} sm={4} xs={12}>
       		  	<Image src={s3} className="sIcons"/>
-      		    <h2>Equipment Manufacturers</h2>
+      		    <h2 className="textNoWrap">Equipment Manufacturers</h2>
       		    <p>Expand your sales funnel and highlight your product’s latest performance features on our platform. Connect with developers and contractors on the platform, or accelerate your internal development</p>
       		  </Col>
       		</Row>
