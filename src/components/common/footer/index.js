@@ -11,7 +11,7 @@ export default  class PageFooter extends React.Component {
 
     return (
 
-      <section className={(window.location.pathname === '/') ? "sectionFooterBTC black" : "sectionFooter black"}>
+      <section className={(window.location.pathname === '/') ? "sectionFooterBTC black" : (window.location.pathname === '/about') ? "sectionFooterBlue black" : "sectionFooter black"}>
         <Grid>
           <Row>
             <Col lg={6} md={6} sm={6} xs={12} className="leftSide">

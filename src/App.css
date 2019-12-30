@@ -1,7 +1,7 @@
 
-/*=====================
-Home Page Structure
-==================*/
+/*===========================================
+Home Page Structure Avdhesh Kumar Nigam
+===============================================*/
 @font-face { 
   font-family: FuturaPTLight; 
   src: local('FuturaPTLight'), 
@@ -1465,7 +1465,7 @@ Contact Page
 }
 .owl-item.active.center .item img{
   transform: scale(1);
-  transition: all .5s ease-in-out;
+  /*transition: all .5s ease-in-out;*/
   opacity: 1;
   filter: alpha(opacity=100);
 }
