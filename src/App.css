@@ -538,6 +538,17 @@ Footer CSS
   border-top: 50px solid #fff;
 }
 
+.sectionFooterBTC{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 50px solid #F8F9F9;
+}
+.sectionFooterBlue{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 50px solid #25274d;
+}
+
 .leftSide ul {
   margin: 0 0 15px 0;
   padding: 0;
@@ -577,7 +588,7 @@ Footer CSS
   margin-bottom: 30px;
 } 
 @media (min-width: 991px){
-  .leftSide p{
+  .leftSide p:first-child{
     margin-top: -30px;
   }
   .logoWhite{
@@ -1516,3 +1527,68 @@ Contact Page
     transform: scale(1.2);
   }
 }
+
+
+
+/*===============
+Press Logo
+===============*/
+.Section7Home{
+  background-color: #F8F9F9 ; 
+  padding: 10px 0 10px 0;
+  height: auto;
+}
+.Section7Home h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #818181;
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+}
+.pressLogo{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.pressLogo li{
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+}
+.pressLogo li{
+  margin-right: 38px;
+}
+.pressLogo li:last-child{
+  margin-right: 0px;
+}
+.pressLogo img{
+  display: block;
+  width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

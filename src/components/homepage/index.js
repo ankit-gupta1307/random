@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
 
 import PageHeader from '../common/header/';
+import PageFooter from '../common/footer/';
 
 import Section1Home from './section1/';
 import Section2Home from './section2/';
 import Section3Home from './section3/';
 import Section4Home from './section4/';
 import Section5Home from './section5/';
-import Section6Home from './section6/';
+/*import Section6Home from './section6/';*/
+import Section7Home from './section7/';
 
 
 
@@ -26,8 +28,9 @@ export default class HomePageContainer extends Component {
 		      <Section3Home/>
 		      <Section4Home/>
 		      <Section5Home/>
-		      
-		      <Section6Home/>
+		      <Section7Home/>
+		      <PageFooter />
+		      {/*<Section6Home/>*/}
 			</React.Fragment>
 		)
 	}
