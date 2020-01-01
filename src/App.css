@@ -551,9 +551,20 @@ About Page Section CSS
     padding-bottom: 30px;
   }
 }
-@media (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px){
+  .sectionAbout5{
+    height: 80vh;
+  }
+  .sectionAbout2.bg{
+    height: 80vh;
+  }
+}
+@media (max-width: 767px) {
   .sectionAbout5{
     min-height: 300px;
+  }
+  .sectionAbout2.bg{
+    height: 300px;
   }
 }
 .sectionAbout5.bg{
@@ -1385,17 +1396,17 @@ Contact Page
 
 @media (max-width: 991px) {
   .userForm input::placeholder {
-    font-size: 12px;
+    font-size: 16px;
   }
   .userForm input:-ms-input-placeholder {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .userForm input::-ms-input-placeholder {
-    font-size: 12px;
+    font-size: 16px;
   }
   .userForm input::-moz-input-placeholder {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 .userForm input:focus{
