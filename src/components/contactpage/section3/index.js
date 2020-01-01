@@ -16,7 +16,7 @@ export default  class Section3Contact extends React.Component {
             <Col lg={6} md={6} sm={6} xs={12} className="bgHeadingCircle">
               <h1>Streamline your Decisions</h1>
               <p>Developers use the platform to cut through the clutter and streamline their processes.</p>
-              <Button className="headerButton textBlack inline-block">Get Started</Button>
+              <Button className="headerButton textBlack inline-block buttonMT">Get Started</Button>
             </Col>
             <Col lg={6} md={6} sm={6} xs={12} lgOffset={0}>
               <Image src={pic} responsive className="imgScale2"/>

@@ -30,7 +30,7 @@ export default  class PageFooter extends React.Component {
               <p>Let's keep in touch and green the grid together!</p>
               <Row className="footerForm">
                 <Col lg={6} md={6} sm={8} xs={8}>
-                  <input type="text" placeholder="Email Address" />
+                  <input type="email" placeholder="Email Address" required />
                 </Col>
                 <Col lg={6} md={6} sm={4} xs={4}>
                   <Button>Submit</Button>

@@ -15,11 +15,11 @@ export default  class Section1Contact extends React.Component {
             <section className="sectionAlign sectionContact bg">
               <Row className="headerContent customRow">
                 <Col lg={12} md={12} sm={12} xs={12} lgOffset={0}>
-                  <h1>View</h1>
+                  <h1 className="bold">View</h1>
                   <p>The #1Clean Energy Development <span> Software Platform.</span></p>
                 </Col>
                 <Col lg={3} md={6} sm={6} xs={12} lgOffset={3} mdOffset={3} smOffset={3}>
-                  <Button className="headerButton textYellow full">Develop Projects</Button>
+                  <Button className="headerButton textYellow full buttonMT">Develop Projects</Button>
                 </Col>
               </Row>
 

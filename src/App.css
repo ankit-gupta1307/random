@@ -2,18 +2,19 @@
 /*===========================================
 Home Page Structure Avdhesh Kumar Nigam
 ===============================================*/
-@font-face { 
+/*@font-face { 
   font-family: FuturaPTLight; 
   src: local('FuturaPTLight'), 
   url(./fonts/FuturaPTLight.otf) 
   format('opentype'); 
-}
-
+}*/
+@import "fonts.css";
 * {
-  font-family: 'FuturaPTLight', 'Roboto', sans-serif;
+  /*font-family: 'FuturaPTLight', 'Roboto', sans-serif;*/
 }
 body {
-  font-family: 'FuturaPTLight', 'Roboto', sans-serif;
+  font-family: Futura PT;
+  font-weight: normal;
   letter-spacing: 1;
 }
 html, body {
@@ -22,6 +23,36 @@ html, body {
   padding: 0px;
   
 }
+
+h1,
+h2{
+  font-family: 'Futura PT Book';
+  font-weight: normal;
+}
+h1.bold{
+  font-family: 'Futura PT';
+  font-weight: 500!important;
+}
+p{
+  font-family: 'Futura PT Book';
+  font-weight: normal;
+  line-height: 1;
+}
+
+.fontWeight500{
+  font-weight: 500!important;
+}
+.fontWeightBold{
+  font-weight: bold!important;
+}
+
+@media (max-width: 767px) {
+  h1.fontWeightBold{
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;  
+  }
+}
+
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -151,14 +182,18 @@ section {
 }
 
 .sectionLast h1{
+  font-family: 'Futura PT Book';
   font-size: 40px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .secionFour img{
   margin:0 auto!important;
 }
 @media (max-width: 991px) {
+  body{
+    overflow-x: hidden;
+  }
   .sectionLast{
     height: auto!important;
     padding: 30px 15px 50px 15px;
@@ -169,8 +204,8 @@ section {
     font-weight: bold;
   }
   .sectionLast p {
-    font-size: 17px!important;
-    font-weight: bold;
+    font-size: 21px!important;
+    margin-bottom: 30px;
   }
   .secionFour{
     border-top: 10px solid rgb(0,0,0);
@@ -181,7 +216,6 @@ section {
 } 
 .sectionLast p{
   font-size: 21px;
-  font-weight: bold;
 }
 .sectionAccess{
   display: flex;
@@ -211,7 +245,7 @@ section {
   }
   .mobileTextHome{
     text-align: right!important;
-    padding-left: 35%;
+    padding-left: 15%;
   }
 }
 .plrnone{
@@ -220,19 +254,20 @@ section {
 }
 
 .sectionAccess h1{
+  font-family: 'Futura PT Book';
   font-size: 48px;
+  font-weight: normal;
   color: #000;
-  font-weight: bold;
 }
 .sectionAccess p {
   font-size: 21px;
-  font-weight: bold;
   color: #000;
 }
 
 .sectionAccess h2{
+  font-family: 'Futura PT Book';
   font-size: 37px;
-  font-weight: bold;
+  font-weight: normal;
   color: #000;
 }
 
@@ -257,9 +292,8 @@ section {
   }
   .sectionAccess p {
     font-size: 21px;
-    font-weight: bold;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 50px;
   }
 }
@@ -277,13 +311,23 @@ About Page Section CSS
   padding-top: 150px;
   padding-bottom: 40px;
   text-align: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 @media (max-width: 767px) {
   .sectionAbout1{
     padding-top: 100px;
   }
   .overlay::after{
-    display: none;
+    display: block;
+      content: ' ';
+      background: #25274D;
+      left: 35%;
+      right: 0;
+      top: 0;
+      height: 20%;
+      position: absolute;
+    
   }
 }
 @media (min-width: 768px) and (max-width: 990px) {
@@ -338,16 +382,15 @@ About Page Section CSS
 
 
 .sectionAbout1 h1{
+  font-family: 'Futura PT Book';
   font-size: 42px;
-  font-weight: bold;
+  font-weight: normal;
   color: #000;
   margin-top: 170px;
   margin-bottom: 40px;
-
 }
 .sectionAbout1 p{
   font-size: 21px;
-  font-weight: bold;
   color: #000;
 }
 @media(min-width: 1100px) {
@@ -371,7 +414,7 @@ About Page Section CSS
   align-items: center;
 }
 .sectionAbout2.bg{
-  background: url("images/bgAboutGirl.jpg") no-repeat;
+  background: url("images/bgAboutGirl.jpg") center center no-repeat;
   background-size: cover;
   min-height: 300px;
 }
@@ -395,7 +438,6 @@ About Page Section CSS
 
 .sectionAbout3 h1{
   font-size: 37px;
-  font-weight: bold;
   color: #fff;
   margin-bottom: 15px;
 }
@@ -429,7 +471,6 @@ About Page Section CSS
 
 .sectionAbout4 h1{
   font-size: 47px;
-  font-weight: bold;
   color: #000;
 }
 
@@ -454,14 +495,12 @@ About Page Section CSS
 }
 .sectionAbout4 h2{
   font-size: 35px;
-  font-weight: bold;
   color: #000;
 }
 
 @media(min-width: 1440px) {
   .sectionAbout4 h2{
     font-size: 40px;
-    font-weight: bold;
     color: #000;
   }
 }
@@ -470,15 +509,20 @@ About Page Section CSS
 .sectionAbout4 p{
   font-size: 20px;
   margin-top: 30px;
-  font-weight: bold;
   color: #000;
 }
-.sectionView4{
-  padding-bottom: 200px;
+@media(min-width: 991px){
+  .sectionView4{
+    padding-bottom: 200px;
+  }
+}
+@media(max-width: 990px){
+  .sectionView4{
+    padding-bottom: 50px;
+  }
 }
 .sectionView4 p{
   font-size: 20px;
-  font-weight: bold;
   padding: 0px 15px;
   color: #000;
 }
@@ -564,7 +608,24 @@ Footer CSS
   padding-bottom: 30px;
   border-top: 50px solid #25274d;
 }
+@media(max-width: 991px) {
+  .sectionFooter{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 10px solid #fff;
+  }
 
+  .sectionFooterBTC{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 10px solid #F8F9F9;
+  }
+  .sectionFooterBlue{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 10px solid #25274d;
+  }
+}
 .leftSide ul {
   margin: 0 0 15px 0;
   padding: 0;
@@ -599,7 +660,7 @@ Footer CSS
 
 .leftSide p{
   font-size: 17px;
-  font-weight: lighter;
+  font-weight: normal;
   color: #fff;
   margin-bottom: 30px;
 } 
@@ -647,6 +708,8 @@ Footer CSS
   }
 }
 .footerForm input{
+  font-family: Futura PT;
+  font-weight: normal;
   width: 100%;
   background-color: transparent;
   border:1px solid transparent;
@@ -655,20 +718,33 @@ Footer CSS
   color: #ddd;
 }
 ::placeholder {
+  font-family: Futura PT;
+  font-weight: normal;
   font-size: 21px;
   color: rgba(255, 255, 255, 0.43);
   opacity: 1;
 }
 
 :-ms-input-placeholder {
+  font-family: Futura PT;
+  font-weight: normal;
   font-size: 21px;
   color: rgba(255, 255, 255, 0.43);
 }
 
 ::-ms-input-placeholder {
+  font-family: Futura PT;
+  font-weight: normal;
   font-size: 21px;
   color: rgba(255, 255, 255, 0.43);
 }
+::-moz-input-placeholder {
+  font-family: Futura PT;
+  font-weight: normal;
+  font-size: 21px;
+  color: rgba(255, 255, 255, 0.43);
+}
+
 .footerForm input:focus{
   outline: none;
   border-bottom:1px solid red;
@@ -702,17 +778,29 @@ Footer CSS
     font-size: 17px;
   }
   ::placeholder {
+    font-family: Futura PT;
+    font-weight: normal;
     font-size: 17px;
     color: #605c5c;
     opacity: 1;
   }
 
   :-ms-input-placeholder {
+    font-family: Futura PT;
+    font-weight: normal;
     font-size: 17px;
     color: #605c5c;
   }
 
   ::-ms-input-placeholder {
+    font-family: Futura PT;
+    font-weight: normal;
+    font-size: 17px;
+    color: #605c5c;
+  }
+  ::-moz-input-placeholder {
+    font-family: Futura PT;
+    font-weight: normal;
     font-size: 17px;
     color: #605c5c;
   }
@@ -750,15 +838,14 @@ section video {
   transform: translateX(-50%) translateY(-50%);
 }*/
 .headerContent h1{
-  font-family: 'Roboto', sans-serif;
-  font-size: 65px;
-  font-weight: 600;
+  
+  font-size: 72px;
+  font-weight: 500;
   text-align: center;
   color: #fff;
 }
 
 .headerContent h1>span{
-  font-family: 'Roboto', sans-serif;
   display: block;
 }
 .headerContent p{
@@ -776,9 +863,15 @@ section video {
     margin-bottom: 85px;
   }
 }
+@media (min-width: 481px) and (max-width: 991px){
+  .headerContent h1{
+    font-size: 65px;
+    margin-bottom: 50px;
+  }
+}
 @media (max-width: 480px) {
   .headerContent h1{
-    font-size: 34px;
+    font-size: 40px;
     margin-bottom: 50px;
   }
 }
@@ -797,8 +890,9 @@ section video {
   }
 }
 .headerButton{
+  font-family: arial;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: normal;
   padding:15px 35px;
   border: 1px solid transparent;
   border-radius: 10px;
@@ -834,9 +928,17 @@ section video {
   font-weight: normal;
   background-color: #53CCF9;
   color: #000;
-  border:1px solid #53CCF9;;
+  border:1px solid #53CCF9;
 }
 
+@media(min-width: 991px) {
+  .buttonMT{
+    margin-top: 40px;
+  }
+  .bgCircle3Clear h1{
+    font-size: 46px;
+  }
+}
 /*=====================
 CSS Header
 =======================*/
@@ -859,6 +961,7 @@ CSS Header
 
 .customHeader.navbar-default .navbar-nav>li>a{
   font-size: 20px;
+  font-weight: normal;
   color: #fff;
 }
 
@@ -929,6 +1032,10 @@ CSS Header
   }
   .mobileVersion{
     display: block;
+  }
+  .mobileVersion p{
+    margin-top:50px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1061,7 +1168,7 @@ Contact Page
 
 .displayData{
   font-size: 48px!important;
-  font-weight: bold;
+  font-weight: normal;
   color: #fff!important;
   text-align: center!important;
   
@@ -1088,6 +1195,18 @@ Contact Page
   padding-bottom: 95px;
 }
 
+@media(max-width: 991px) {
+  .workerTP{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .workerTP p{
+    margin-bottom: 50px;
+  }
+  .marginRow{
+    margin-top: 10px;
+  }
+}
 
 .servicesbg{
   background: url("images/servicesbg.png") center center no-repeat;
@@ -1135,6 +1254,9 @@ Contact Page
   }
 }
 @media(max-width: 500px) {
+.sectionContact4 h1{
+  margin-top: -20px;
+}
   .priceBox {
     background: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.161);
@@ -1191,11 +1313,12 @@ Contact Page
 }
 
 .priceBox  ul li{
+  font-family: 'Futura PT Book';
+  font-weight: normal;  
+  font-size: 21px;
   display: block;
   list-style: none;
   margin:4px 0;
-  font-size: 21px;
-  font-weight: 500;
   color: #191919;
 }
 
@@ -1204,10 +1327,12 @@ Contact Page
   color: #25274D;
 }
 .priceBox button{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
   display: block;
   width: 100%;
   font-size: 23px;
-  font-weight: bold;
   color: #000;
   text-align: center;
   background: #53CCF9;
@@ -1224,28 +1349,55 @@ Contact Page
   width: 100%;
   background-color: #fff;
   border:1px solid #fff;
-  height: 35px;
-  padding: 17px 2px 15px 15px;
+  padding: 7px 2px 7px 15px;
   color: rgba(147, 147, 147, 0.73);
   margin: 7px 0;
   border-radius: 5px;
 }
 .userForm input::placeholder {
+  font-family: Futura PT;
+  font-weight: normal;
   font-size: 18px;
-  color: rgba(147, 147, 147, 0.73);;
+  color: rgba(147, 147, 147, 0.73);
   opacity: 1;
 }
 
+
 .userForm input:-ms-input-placeholder {
+  font-family: Futura PT;
+  font-weight: normal;
   font-size: 18px;
-  color: rgba(147, 147, 147, 0.73);;
+  color: rgba(147, 147, 147, 0.73);
 }
 
 .userForm input::-ms-input-placeholder {
+  font-family: Futura PT;
+  font-weight: normal;
   font-size: 18px;
-  color: rgba(147, 147, 147, 0.73);;
+  color: rgba(147, 147, 147, 0.73);
+}
+.userForm input::-moz-input-placeholder {
+  font-family: Futura PT;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(147, 147, 147, 0.73);
 }
 
+@media (max-width: 991px) {
+  .userForm input::placeholder {
+    font-size: 12px;
+  }
+  .userForm input:-ms-input-placeholder {
+    font-size: 12px;
+  }
+
+  .userForm input::-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .userForm input::-moz-input-placeholder {
+    font-size: 12px;
+  }
+}
 .userForm input:focus{
   outline: none;
   border-bottom:1px solid #53CCF9;
@@ -1283,13 +1435,19 @@ Contact Page
   }
 
   .userDataDisplay{
-    padding-top: calc(100% - 150px);
+    padding-top: calc(100% - 120px);
   }
 }
  @media (max-width: 761px) {
   .userDataImage {
     margin: 20px auto;
   }
+ }
+
+ .row.userDataDisplay > [class^="col-"],
+ .row.userDataDisplay > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
  }
 
 .userDataDisplay input{
@@ -1299,8 +1457,7 @@ Contact Page
   width: 90%;
   background-color: #fff;
   border:1px solid #fff;
-  height: 35px;
-  padding: 17px 15px 15px 15px;
+  padding: 2px 15px 2px 15px;
   margin: 5px auto;
   border-radius: 20px;
   text-align: center;
@@ -1349,9 +1506,10 @@ Contact Page
 
 .userDataDisplay p{
   font-size: 21px;
-  font-weight: bold;
   text-align: center;
-  color: rgba(0,0,0,.9, );
+  color: rgba(0,0,0,.9);
+  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .sliderHeading{
@@ -1452,8 +1610,11 @@ Contact Page
 }
 
 
-@media(max-width: 767px) {
+@media(max-width: 991px) {
   .mobileImg{
+    margin: 50px 0;
+  }
+  .desktopImg{
     margin: 50px 0;
   }
   .sectionAccess h1{
@@ -1472,13 +1633,19 @@ Contact Page
 @media(min-width: 991px) {
   .secionFour h1 span,
   .sectionAccess h1 span{
+    font-family: 'Futura PT Book';
     display: block;
   }
   .sectionLast p{
     margin: 30px auto;
   }
 }
-
+@media(min-width: 481px) and (max-width: 990px) {
+  .desktopImg{
+    margin: 50px auto;
+    width: 70%;
+  }
+}
 
 .owl-prev.disabled,
 .owl-next.disabled{
@@ -1507,9 +1674,18 @@ Contact Page
   font-weight: bold;
 }
 
-.sectionParter{
-  padding-top: 150px;
-  padding-bottom: 150px;
+@media(min-width: 991px) {
+ .sectionParter{
+   padding-top: 150px;
+   padding-bottom: 150px;
+ }
+}
+
+@media(max-width: 991px) {
+ .sectionParter{
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
 }
 .sectionParter img{
   margin-bottom: -10px;
@@ -1588,15 +1764,26 @@ Press Logo
   list-style: none;
   text-align: center;
 }
-.pressLogo li{
-  margin-right: 38px;
-}
 .pressLogo li:last-child{
   margin-right: 0px;
 }
 .pressLogo img{
   display: block;
   width: auto;
+}
+
+@media (max-width: 480px) {
+  .pressLogo li{
+    display: block;
+  }
+  .pressLogo li img{
+    margin: 20px auto;
+  }
+}
+@media (min-width: 991px) {
+  .pressLogo li{
+    margin-right: 38px;
+  }
 }
 
 @media (max-width: 500px) {
