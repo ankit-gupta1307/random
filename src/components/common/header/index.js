@@ -32,9 +32,9 @@ export default  class PageHeader extends React.Component {
               <NavItem eventKey={2} href="/about">
                 About
               </NavItem>
-              <NavItem eventKey={2} href="/view">
+              {/*<NavItem eventKey={2} href="/view">
                 View
-              </NavItem>
+              </NavItem>*/}
               <NavItem eventKey={2} href="" className="loginBtn">
                 Login
               </NavItem>
