@@ -22,23 +22,23 @@ export default  class Section3About extends React.Component {
               <p className="ParterP themeTextColor">We are bringing clean energy to the world together.</p>
       			</Col>
       		  
-      		  <Col lg={4} md={4} sm={4} xs={6}>
+      		  <Col lg={4} md={4} sm={4} xs={12}>
       		  	<Image src={partner01} />
       		  </Col>
-            <Col lg={4} md={4} sm={4} xs={6}>
+            <Col lg={4} md={4} sm={4} xs={12}>
               <Image src={partner02} />
             </Col>
-            <Col lg={4} md={4} sm={4} xs={6}>
+            <Col lg={4} md={4} sm={4} xs={12}>
               <Image src={partner03} />
             </Col>
 
-            <Col lg={4} md={4} sm={4} xs={6}>
+            <Col lg={4} md={4} sm={4} xs={12}>
               <Image src={partner04} />
             </Col>
-            <Col lg={4} md={4} sm={4} xs={6}>
+            <Col lg={4} md={4} sm={4} xs={12}>
               <Image src={partner05} />
             </Col>
-            <Col lg={4} md={4} sm={4} xs={6}>
+            <Col lg={4} md={4} sm={4} xs={12}>
               <Image src={partner06} />
             </Col>
       		</Row>

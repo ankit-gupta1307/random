@@ -36,7 +36,7 @@ input[type=number] {
 
 @media (min-width: 1100px) {
 .container {
-    width: 1060px!important;
+    width: 1080px!important;
   }
 }
 
@@ -326,7 +326,7 @@ About Page Section CSS
 @media (min-width: 1401px) {
   .overlay::after{
     content: ' ';
-    background: #000;
+    background: #25274D;
     left: 30%;
     right: 0%;
     width: 1140px;
@@ -349,15 +349,17 @@ About Page Section CSS
   font-size: 21px;
   font-weight: bold;
   color: #000;
+}
+@media(min-width: 1100px) {
+  .sectionAbout1 p{
   margin-bottom: 170px;
 }
-
+}
 @media (max-width: 480px) {
   .sectionAbout1 h1{
     font-size: 37px;
     font-weight: bold;
     margin-top: 30px;
-
   }
   .sectionAbout1 p{
     font-size: 21px;
@@ -429,15 +431,27 @@ About Page Section CSS
   font-size: 47px;
   font-weight: bold;
   color: #000;
-  margin-bottom: 120px;
 }
 
+@media(min-width: 1100px) {
+  .sectionAbout4 h1{
+  margin-bottom: 120px;
+}
+}
 .sectionAbout4 img{
   margin: 0 auto;
   display: block;
   width: 120px;
 }
 
+@media(max-width: 500px) {  
+  .bgCircleAboutApproach img{
+    margin-top: 20px;
+  }
+  .bgCircleAboutApproach p{
+    margin-top: 0!important;
+  }
+}
 .sectionAbout4 h2{
   font-size: 35px;
   font-weight: bold;
@@ -481,8 +495,10 @@ About Page Section CSS
 .themeTextColor{
   color: #53CCF9!important;
 }
-.aboutApproach{
-  margin-top: 120px;
+@media(min-width: 1100px) {
+  .bgCircleAboutApproach .aboutApproach{
+    margin-top: 120px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -957,6 +973,12 @@ CSS Header
     background-repeat: no-repeat, no-repeat;
     background-size: 300px, 178px, 200px;
   }
+  .bgSectionPrice {
+    background-image: url("images/circle.png"), url("images/circle.png"), url("images/circle.png");
+    background-position: 10% 50%, 1200px 50px, 90% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 182px, 178px, 260px;
+  }
   .bgCircle3Clear {
     background-image: url("images/circle.png");
     background-position: -200px 0px;
@@ -1149,7 +1171,6 @@ Contact Page
 
 .boxHeader.subHeading{
   background: #F8F9F9;
-  box-shadow: 0px 10px 17px rgba(0, 0, 0, 0.161);
   border-radius: 5px;
   padding: 15px;
 }
@@ -1514,6 +1535,9 @@ Contact Page
 
 
 @media (min-width: 1100px) {
+  body{
+    overflow-x: hidden;
+  }
   .desktopTextAlign{
     margin-top: 150px;
   }
@@ -1526,6 +1550,13 @@ Contact Page
   .imgScale2{
     transform: scale(1.2);
   }
+  .desktopMarginTop{
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
+.clearTextAlign span{
+  display: block;
+}
 }
 
 
@@ -1568,7 +1599,11 @@ Press Logo
   width: auto;
 }
 
-
+@media (max-width: 500px) {
+  .pressLogo img{
+    margin: 20px auto;
+  }
+}
 
 
 

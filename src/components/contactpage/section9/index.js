@@ -9,7 +9,7 @@ export default  class Section9Contact extends React.Component {
 	}
 	render() {
     return (
-      <section className="auto white sectionPrice">
+      <section className="auto white sectionPrice bgSectionPrice">
         <Grid>
           <Row>
             <Col lg={12} md={12} sm={12} xs={12} className="priceList">
