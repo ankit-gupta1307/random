@@ -223,13 +223,14 @@ section {
   align-items: center;
 }
 
-@media(min-width: 501px) and (max-width: 990px){
+@media(min-width: 501px) {
   .sectionAccess.bg{
     background: url("images/bgBoy.jpg") no-repeat;
     background-size: cover;
     min-height: 400px;
   }
 }
+
 @media(max-width: 500px) {
   .sectionAccess.bg{
     background: #fff;
