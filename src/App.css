@@ -223,15 +223,13 @@ section {
   align-items: center;
 }
 
-@media(min-width: 501px) {
+@media(min-width: 501px) and (max-width: 990px){
   .sectionAccess.bg{
     background: url("images/bgBoy.jpg") no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 400px;
   }
-  
 }
-
 @media(max-width: 500px) {
   .sectionAccess.bg{
     background: #fff;
@@ -1395,6 +1393,10 @@ Contact Page
 }
 
 @media (max-width: 991px) {
+  .bgColorBlack{
+    background-color: #000;
+    min-height: 500px;
+  }
   .userForm input::placeholder {
     font-size: 16px;
   }
