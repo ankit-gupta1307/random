@@ -42,7 +42,7 @@ export default  class Section4Contact extends React.Component {
             </Col>
             <Col lg={4} md={4} sm={4} xs={12}>
               <Image src={s5} className="sIcons"/>
-              <h2>Utilities</h2>
+              <h2 className="paraDeskMT">Utilities</h2>
               <p>Get a window into how developers see project LCOEs at your sites. Evaluate the true price tenders should be priced at in your solar auctions</p>
             </Col>
             <Col lg={4} md={4} sm={4} xs={12}>

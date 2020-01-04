@@ -23,23 +23,23 @@ export default  class Section3About extends React.Component {
       			</Col>
       		  
       		  <Col lg={4} md={4} sm={4} xs={12}>
-      		  	<Image src={partner01} />
+      		  	<a href="http://www.thexandergroup.com/" target="_blank"><Image src={partner01} /></a>
       		  </Col>
             <Col lg={4} md={4} sm={4} xs={12}>
-              <Image src={partner02} />
+              <a href="https://elementalexcelerator.com/" target="_blank"><Image src={partner02} /></a>
             </Col>
             <Col lg={4} md={4} sm={4} xs={12}>
-              <Image src={partner03} />
+              <a href="https://solgenix.net" target="_blank"><Image src={partner03} /></a>
             </Col>
 
             <Col lg={4} md={4} sm={4} xs={12}>
-              <Image src={partner04} />
+              <a href="https://www.bolur.com/" target="_blank"><Image src={partner04} /></a>
             </Col>
             <Col lg={4} md={4} sm={4} xs={12}>
-              <Image src={partner05} />
+              <a href="https://kae-capital.com/" target="_blank"><Image src={partner05} /></a>
             </Col>
             <Col lg={4} md={4} sm={4} xs={12}>
-              <Image src={partner06} />
+              <a href="https://grok.ventures/" target="_blank"><Image src={partner06} /></a>
             </Col>
       		</Row>
       	</Grid>

@@ -6,8 +6,12 @@ export default  class Section1Home extends React.Component {
 		super(props)
     this.state = {}
     this.handleClick = this.handleClick.bind(this);
+    this.handleClickBuy = this.handleClickBuy.bind(this);
 	}
 
+  handleClickBuy() {
+    window.location.href = "http://cue.energy/"
+  }
   handleClick() {
     window.location.href = "/view"
   }
@@ -27,7 +31,7 @@ export default  class Section1Home extends React.Component {
                   <h1 className="headerContentHeading">You are the future <span> of clean energy.</span></h1>
                 </Col>
                 <Col lg={3} md={6} sm={6} xs={12} lgOffset={3}>
-                  <Button className="headerButton textYellow full">Buy Clean Energy</Button>
+                  <Button className="headerButton textYellow full" onClick={this.handleClickBuy}>Buy Clean Energy</Button>
                 </Col>
                 <Col lg={3} md={6} sm={6} xs={12}>
                   <Button className="headerButton textYellow full" onClick={this.handleClick}>Develop Clean Energy</Button>

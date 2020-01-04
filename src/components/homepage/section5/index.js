@@ -10,7 +10,7 @@ export default  class Section5Home extends React.Component {
 	}
 
   handleClick() {
-    window.location.href = "/view";
+    window.location.href = "http://cue.energy/"
   }
   
 	render() {

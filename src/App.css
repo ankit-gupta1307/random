@@ -36,7 +36,7 @@ h1.bold{
 p{
   font-family: 'Futura PT Book';
   font-weight: normal;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .fontWeight500{
@@ -1060,6 +1060,16 @@ CSS Header
     background-repeat: no-repeat;
     background-size: 25%;
   }
+  .bgHeadingCircleZero h1{
+    margin-top: 55px;
+    margin-bottom: 30px;
+  }
+  .bgHeadingCircleZero {
+    background-image: url("images/newCircle.png");
+    background-position: 56%  0px;
+    background-repeat: no-repeat;
+    background-size: 25%;
+  }
   .bgCircle {
     background-image: url("images/circle.png"), url("images/circle.png"), url("images/circle.png");
     background-position: -40px -230px, 1220px 100px, 200px 110%;
@@ -1105,6 +1115,12 @@ CSS Header
   .bgHeadingCircle {
     background-image: url("images/circle.png");
     background-position: 73%  15px;
+    background-repeat: no-repeat;
+    background-size: 25%;
+  }
+  .bgHeadingCircleZero {
+    background-image: url("images/newCircle.png");
+    background-position: 62%  15px;
     background-repeat: no-repeat;
     background-size: 25%;
   }
@@ -1631,6 +1647,7 @@ Contact Page
   .desktopImg{
     margin: 50px 0;
   }
+  
   .sectionAccess h1{
     padding-top: 30px;
   }
@@ -1728,8 +1745,19 @@ Contact Page
   body{
     overflow-x: hidden;
   }
+  .desktopImgScale{
+    transform: scale(1.1)!important;
+  }
   .desktopTextAlign{
     margin-top: 150px;
+    margin-left: 10px;
+  }
+  .desktopTextAlignP{
+    margin-left: 10px!important;
+    font-size: 20px!important;
+  }
+  .paraDeskMT{
+    margin-top: 33px!important;
   }
   .textNoWrap{
     white-space: nowrap;
@@ -1741,7 +1769,7 @@ Contact Page
     transform: scale(1.2);
   }
   .desktopMarginTop{
-    margin-top: 80px;
+    margin-top: 70px;
     margin-bottom: 0;
   }
 .clearTextAlign span{

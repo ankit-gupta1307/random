@@ -3,10 +3,14 @@ import { Grid, Row, Col, Button, Image } from 'react-bootstrap'
 import pic from '../../../images/img03.png';
 
 export default  class Section4Home extends React.Component {
-	constructor(props) {
-		super(props)
-    this.state = {}
-	}
+	 constructor(props) {
+      super(props)
+      this.state = {}
+      this.handleClick = this.handleClick.bind(this);
+    }
+    handleClick() {
+      window.location.href = "http://cue.energy/"
+    }
 	render() {
     return (
       <section className="sectionAccess white secionFour bgCircle3Clear">
@@ -16,7 +20,7 @@ export default  class Section4Home extends React.Component {
       		    <h1>Clean Energy for <span>100 Countries and Counting</span></h1>
               <Image src={pic} className="mobileVersion" alt="logo" responsive/>
       		    <p className="clearTextAlign">With Cue, you join other committed companies to create a <span>cost-optimized power syndicate. The more that join the network, the more amplified the social impact.</span></p>
-      		    <Button className="headerButton textBlack inline-block buttonMT">Green The Grid</Button>
+      		    <Button className="headerButton textBlack inline-block buttonMT" onClick={this.handleClick}>Green The Grid</Button>
       		  </Col>
       		  <Col lg={5} md={6} sm={6} xs={12} lgOffset={1}>
               <Image src={pic} className="destopVersion" alt="logo" responsive/>

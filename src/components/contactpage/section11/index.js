@@ -1,7 +1,13 @@
 import React from 'react';
 import { Grid, Row, Col, Button, Image } from 'react-bootstrap'
 
-import pic from '../../../images/laptop01.png';
+import pic01 from '../../../images/laptop01.png';
+import pic02 from '../../../images/platform-new-2.png';
+import pic03 from '../../../images/platform-new-3.png';
+import pic04 from '../../../images/platform-new-4.png';
+import pic05 from '../../../images/platform-new-5.png';
+import pic06 from '../../../images/platform-new-6.png';
+import pic07 from '../../../images/platform-new-7.png';
 
 export default  class Section5View extends React.Component {
 	constructor(props) {
@@ -23,22 +29,25 @@ export default  class Section5View extends React.Component {
                 <div class="large-12 columns">
                   <div class="nonloop owl-carousel">
                     <div class="item">
-                      <Image src={pic} />
+                      <Image src={pic01} />
                     </div>
                     <div class="item">
-                      <Image src={pic} />
+                      <Image src={pic02} />
                     </div>
                     <div class="item">
-                      <Image src={pic} />
+                      <Image src={pic03} />
                     </div>
                     <div class="item">
-                      <Image src={pic} />
+                      <Image src={pic04} />
                     </div>
                     <div class="item">
-                      <Image src={pic} />
+                      <Image src={pic05} />
                     </div>
                     <div class="item">
-                      <Image src={pic} />
+                      <Image src={pic06} />
+                    </div>
+                    <div class="item">
+                      <Image src={pic07} />
                     </div>
                   </div>
                 </div>
