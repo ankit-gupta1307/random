@@ -10,7 +10,7 @@ export default  class Section3Contact extends React.Component {
   }
   render() {
     return (
-      <section className="sectionAccess sectionAlign gray bgCircle3ViewMake viewSection">
+      <section className="sectionAccess sectionAlign bgGray bgCircle3ViewMake viewSection">
         <Grid>
           <Row>
             <Col lg={4} md={4} sm={4} xs={12} className="bgHeadingCircle MTNone">
@@ -30,7 +30,7 @@ export default  class Section3Contact extends React.Component {
                   <input type="number" placeholder="Avg Project Size (MWs)" />
                 </Col>
               </Row>
-              <Button className="headerButton numberBlack inline-block">Calculate</Button>
+              <Button className="headerButton numberBlack inline-block btnBlue">Calculate</Button>
             </Col>
             <Col lg={4} md={4} sm={4} xs={12}>
               <Image src={pic} responsive className="userDataImage" />

@@ -116,6 +116,11 @@ section {
     height: 100vh;
     background: rgb(232, 232, 232);
 }
+.bgGray {
+    height: 100vh;
+    background: #F8F9F9;
+}
+
 .white {
     background: #fff;
 }
@@ -901,11 +906,11 @@ section video {
 }
 .headerButton{
   font-family: arial;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: normal;
   padding:15px 35px;
   border: 1px solid transparent;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top:15px;
 }
 .headerButton.textYellow{
@@ -940,6 +945,21 @@ section video {
   color: #000;
   border:1px solid #53CCF9;
 }
+.btnBlue{
+  font-family: arial;
+  background-color: #25274D;
+  color: #fff;
+  font-size: 23px;
+  font-weight: normal;
+  padding:15px 35px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-top:15px;
+}
+.btnBlue:hover{
+  background-color: #25274D;
+  color: #fff;
+}
 
 @media(min-width: 991px) {
   .buttonMT{
@@ -947,6 +967,9 @@ section video {
   }
   .bgCircle3Clear h1{
     font-size: 46px;
+  }
+  .fontSize56{
+    font-size: 56px!important;
   }
 }
 /*=====================
@@ -1192,12 +1215,18 @@ Contact Page
   /*min-height: 94px;*/
 }
 
+.displayDataHeading{
+  font-size: 48px!important;
+  font-weight: normal;
+  color: #6FD0F4!important;
+  text-align: center!important;
+}
+
 .displayData{
   font-size: 48px!important;
   font-weight: normal;
   color: #fff!important;
   text-align: center!important;
-  
 }
 .displayData span{
   display: block!important;

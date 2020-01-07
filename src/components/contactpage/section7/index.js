@@ -12,7 +12,7 @@ export default  class SectionContactLine extends React.Component {
         <Grid>
           <Row className="blueRow">
             <Col lg={12} md={12} sm={12} xs={12}>
-              <h1 className="displayData">Our Network</h1>
+              <h1 className="displayDataHeading">Our Network</h1>
             </Col>
           </Row>
         </Grid>
