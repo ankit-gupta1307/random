@@ -955,10 +955,14 @@ section video {
   border: 1px solid transparent;
   border-radius: 5px;
   margin-top:15px;
+  outline: none;
 }
-.btnBlue:hover{
-  background-color: #25274D;
-  color: #fff;
+.btnBlue:hover,
+.btnBlue:focus{
+  background-color: #53CCF9;
+  color: #000;
+  outline: none;
+  border:1px solid #53CCF9;
 }
 
 @media(min-width: 991px) {
