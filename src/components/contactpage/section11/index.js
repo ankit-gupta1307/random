@@ -16,7 +16,7 @@ export default  class Section5View extends React.Component {
 	}
 	render() {
     return (
-      <section className="sectionSlider gray text-center">
+      <section className="sectionSlider offWhite text-center">
       	<Grid fluid className="sliderContainer1">
       		<Row>
             <Col lg={12} md={12} sm={12} xs={12}>
