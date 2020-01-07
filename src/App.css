@@ -968,7 +968,10 @@ section video {
   color:#fff;
   outline: none;
 }
-
+.justify{
+  text-align: justify!important;
+  text-justify: inter-word!important;
+}
 @media(min-width: 991px) {
   .buttonMT{
     margin-top: 40px;
